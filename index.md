@@ -1,25 +1,34 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
-
-hero:
-  # name: "Michael Wurster"
-  text: "Michael Wurster"
-  tagline: Software Engineer with 10+ years at tech giants & startups, 20+ research papers. Skilled in Java, TypeScript, Python, and Kubernetes. Loves continuous delivery!
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
-
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Contact
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /contact
+layout: page
 ---
+
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
+
+const members = [
+  {
+    name: "Michael Wurster",
+    avatar: "https://www.github.com/miwurster.png",
+    desc: "Software Engineer with 10+ years at tech giants & startups, 20+ research papers. Skilled in Java, TypeScript, Python, and Kubernetes. Loves continuous delivery!",
+    links: [
+      { icon: "github", link: "https://github.com/miwurster" },
+      { icon: "twitter", link: "https://twitter.com/miwurster" },
+      { icon: "linkedin", link: "https://www.linkedin.com/in/miwurster" },
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>'
+        },
+        link: "mailto:miwurster@gmail.com"
+      },
+    ]
+  },
+]
+</script>
+
+<VPTeamPage style="margin-top: 3em">
+  <VPTeamMembers size="medium" :members="members" />
+</VPTeamPage>
