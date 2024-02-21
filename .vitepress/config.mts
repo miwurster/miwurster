@@ -27,6 +27,12 @@ export default defineConfig({
       },
     ],
 
+    footer: {
+      // message: 'Released under the MIT License.',
+      copyright: 'Copyright © 1983-present | Michael Wurster | Software Engineer'
+    },
+
+    // lastUpdated: true,
     externalLinkIcon: true,
   },
 });
