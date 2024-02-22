@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       {text: "Home", link: "/"},
       {text: "Resume", link: "/resume"},
-      {text: "Research", link: "/research"},
+      {text: "Publications", link: "/publications"},
     ],
 
     socialLinks: [

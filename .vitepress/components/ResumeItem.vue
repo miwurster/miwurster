@@ -21,9 +21,7 @@ const props = defineProps<{
     <p v-if="location" class="location">
       {{ location }}
     </p>
-    <p v-if="description" class="description">
-      {{ description }}
-    </p>
+    <p v-if="description" class="description" v-html="description"></p>
   </div>
 </template>
 
@@ -73,5 +71,10 @@ p, div {
   font-weight: 400;
   color: #666;
   margin: 0;
+}
+
+:deep(.description a) {
+  color: #333;
+  font-weight: 400;
 }
 </style>

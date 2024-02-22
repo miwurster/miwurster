@@ -10,7 +10,10 @@ const experience = [
     start: "01/2023",
     end: "present",
     location: "Berlin, Germany",
-    description: "Lead the transformation of the PlanQK Platform from a research prototype into a public SaaS offering. Built on top of Kubernetes while embracing continuous delivery to build better software faster.",
+    description: `
+Lead the transformation of the PlanQK Platform from a research prototype into a public SaaS offering.
+Built on top of Kubernetes while embracing continuous delivery to build better software faster.
+`,
   },
   {
     title: "Senior Software Engineer",
@@ -18,7 +21,10 @@ const experience = [
     start: "07/2021",
     end: "12/2022",
     location: "Berlin, Germany",
-    description: "Part of the research project PlanQK. Designed and built the PlanQK Platform prototype helping quantum value chain players to develop, operate, and monetize quantum services.",
+    description: `
+Part of the research project PlanQK.
+Designed and built the PlanQK Platform prototype helping quantum value chain players to develop, operate, and monetize quantum services.
+`,
   },
   {
     title: "Research Associate",
@@ -26,39 +32,61 @@ const experience = [
     start: "03/2017",
     end: "06/2021",
     location: "Stuttgart, Germany",
-    description: "20+ peer-reviewed publications in the area of DevOps and cloud-native application deployment automation, 10 of which are first author contributions.",
+    description: `
+20+ peer-reviewed <a href="/publications">publications</a> in the area of DevOps and cloud-native application deployment automation, 10 of which are first author contributions.
+`,
   },
   {
     title: "Senior Software Engineer and Scrum Master",
-    subtitle: "Hewlett-Packard GmbH - Full-Time",
+    subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "04/2016",
     end: "03/2017",
     location: "Böblingen, Germany",
-    description: "RnD at HP Operations Manager i: Certified scrum master and senior software engineer of one feature team. Strengthened my experience in designing and developing loosely coupled, Java-based software solutions. I left HP since the RnD department in Germany was steadily shrinking and therefore lacked the opportunities for further personal development.",
+    description: `
+RnD at HP Operations Manager i:
+Certified scrum master and senior software engineer of one feature team.
+Strengthened my experience in designing and developing loosely coupled, Java-based software solutions.
+I left HPE since the RnD department in Germany was steadily shrinking and therefore lacked the opportunities for further personal development.
+`,
   },
   {
     title: "Software Design Engineer",
-    subtitle: "Hewlett-Packard GmbH - Full-Time",
+    subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "02/2015",
     end: "03/2016",
     location: "Böblingen, Germany",
-    description: "RnD at HP Operations Manager i: Moved to the core development team of HP’s operation management solution. Gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres). Applied agile software development practices using Scrum (SAFe certification). Started the M.Sc. course Services Computing part-time at the University of Reutlingen.",
+    description: `
+RnD at HP Operations Manager i:
+Moved to the core development team of HPE’s operation management solution.
+Gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
+Applied agile software development practices using Scrum (SAFe certification).
+Started the M.Sc. course Services Computing part-time at the Reutlingen University.
+`,
   },
   {
     title: "Software Design Engineer",
-    subtitle: "Hewlett-Packard GmbH - Full-Time",
+    subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "06/2012",
     end: "01/2015",
     location: "Böblingen, Germany",
-    description: "RnD at HP BSM Integration Adapter: Lead the development to productize different monitoring solution adapters, e.g., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HP’s operations management solution (HP Operations Manager i). Onsite support for strategic HP customers.",
+    description: `
+RnD at HP BSM Integration Adapter:
+Lead the development to productize different monitoring solution adapters, e.g., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPe’s operations management solution (HP Operations Manager i).
+Onsite support for strategic HPE customers.
+`,
   },
   {
     title: "Software Design Engineer",
-    subtitle: "Hewlett-Packard GmbH - Full-Time",
+    subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "04/2010",
     end: "05/2012",
     location: "Böblingen, Germany",
-    description: "RnD at HP BSM Integration Adapter: Entry-level position as a software engineer. Working on a software solution (HP BSM Integration Adapter) and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application. The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HP’s operations management solution.",
+    description: `
+RnD at HP BSM Integration Adapter:
+Entry-level position as a software engineer. 
+Working on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
+The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE’s operations management solution.
+`,
   },
 ];
 
@@ -68,14 +96,14 @@ const education = [
     subtitle: "Master of Science (M.Sc.), Services Computing",
     start: "10/2014",
     end: "08/2016",
-    description: "Master thesis at the Institute of Architecture of Application Systems, University of Stuttgart"
+    description: "Focus on Cloud Computing, Data Mining and Analytics; Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart)"
   },
   {
     title: "Esslingen University",
     subtitle: "Bachelor of Engineering (B.Eng.), Information Technology",
     start: "10/2006",
     end: "02/2010",
-    description: "Bachelor thesis at Hewlett-Packard GmbH"
+    description: "Focus on Business Process Management & Software Engineering; Bachelor's thesis at Hewlett Packard Enterprise."
   },
 ];
 </script>
