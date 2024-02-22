@@ -6,10 +6,10 @@ title: Resume
 const experience = [
   {
     title: "Senior Software Engineer",
-    subtitle: "Anaqor - Full-Time, Remote",
+    subtitle: "Anaqor - Full-Time",
     start: "01/2023",
     end: "present",
-    location: "Berlin, Germany",
+    location: "Berlin, Germany - Remote",
     description: `
 Lead the transformation of the PlanQK Platform from a research prototype into a public SaaS offering.
 Built on top of Kubernetes while embracing continuous delivery to build better software faster.
@@ -17,10 +17,10 @@ Built on top of Kubernetes while embracing continuous delivery to build better s
   },
   {
     title: "Senior Software Engineer",
-    subtitle: "StoneOne AG - Full-Time, Remote",
+    subtitle: "StoneOne AG - Full-Time",
     start: "07/2021",
     end: "12/2022",
-    location: "Berlin, Germany",
+    location: "Berlin, Germany - Remote",
     description: `
 Part of the research project PlanQK.
 Designed and built the PlanQK Platform prototype helping quantum value chain players to develop, operate, and monetize quantum services.
