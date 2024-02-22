@@ -96,7 +96,7 @@ const education = [
     subtitle: "Master of Science (M.Sc.), Services Computing",
     start: "10/2014",
     end: "08/2016",
-    description: "Focus on Cloud Computing, Data Mining and Analytics; Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart)"
+    description: "Focus on Cloud Computing, Data Mining and Analytics; Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart)."
   },
   {
     title: "Esslingen University",
