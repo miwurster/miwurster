@@ -57,7 +57,7 @@ I left HPE since the RnD department in Germany was steadily shrinking and theref
     location: "Böblingen, Germany",
     description: `
 RnD at HP Operations Manager i:
-Moved to the core development team of HPE’s operation management solution.
+Moved to the core development team of HPE's operation management solution.
 Gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
 Applied agile software development practices using Scrum (SAFe certification).
 Started the M.Sc. course Services Computing part-time at the Reutlingen University.
@@ -71,7 +71,7 @@ Started the M.Sc. course Services Computing part-time at the Reutlingen Universi
     location: "Böblingen, Germany",
     description: `
 RnD at HP BSM Integration Adapter:
-Lead the development to productize different monitoring solution adapters, e.g., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HP Operations Manager i).
+Lead the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HP Operations Manager i).
 Onsite support for strategic HPE customers.
 `,
   },
@@ -85,7 +85,7 @@ Onsite support for strategic HPE customers.
 RnD at HP BSM Integration Adapter:
 Entry-level position as a software engineer. 
 Working on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
-The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE’s operations management solution.
+The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE's operations management solution.
 `,
   },
 ];
