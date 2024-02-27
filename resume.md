@@ -43,7 +43,7 @@ Designed and built the PlanQK Platform prototype helping quantum value chain pla
     end: "03/2017",
     location: "Böblingen, Germany",
     description: `
-RnD at HP Operations Manager i:
+RnD at HPE Operations Manager i:
 Certified scrum master and senior software engineer of one feature team.
 Strengthened my experience in designing and developing loosely coupled, Java-based software solutions.
 I left HPE since the RnD department in Germany was steadily shrinking and therefore lacked the opportunities for further personal development.
@@ -56,7 +56,7 @@ I left HPE since the RnD department in Germany was steadily shrinking and theref
     end: "03/2016",
     location: "Böblingen, Germany",
     description: `
-RnD at HP Operations Manager i:
+RnD at HPE Operations Manager i:
 Moved to the core development team of HPE's operation management solution.
 Gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
 Applied agile software development practices using Scrum (SAFe certification).
@@ -70,8 +70,8 @@ Started the M.Sc. course Services Computing part-time at the Reutlingen Universi
     end: "01/2015",
     location: "Böblingen, Germany",
     description: `
-RnD at HP BSM Integration Adapter:
-Lead the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HP Operations Manager i).
+RnD at HPE BSM Integration Adapter:
+Lead the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HPE Operations Manager i).
 Onsite support for strategic HPE customers.
 `,
   },
@@ -82,7 +82,7 @@ Onsite support for strategic HPE customers.
     end: "05/2012",
     location: "Böblingen, Germany",
     description: `
-RnD at HP BSM Integration Adapter:
+RnD at HPE BSM Integration Adapter:
 Entry-level position as a software engineer. 
 Working on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
 The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE's operations management solution.
