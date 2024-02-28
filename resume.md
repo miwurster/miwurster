@@ -11,13 +11,18 @@ const experience = [
     end: "present",
     location: "Berlin, Germany - Remote",
     description: `
-I led the transformation of the PlanQK Platform from a research prototype to a public SaaS offering.
+I led the transformation of the PlanQK Platform from a research prototype to a commercial public PaaS offering.
+Users of the PlanQK Platform bring their own code that can access a variety of different quantum computing hardware through the platform's SDK.
+Notably, the platform ensures that users only pay for the resources they actually consume.
+<br>
+<br>
 A cornerstone of this transformation was the integration of Google Cloud services, including GKE, Cloud SQL, PubSub, Cloud Build, Cloud Run, and Cloud Storage, which formed the foundation of a robust and scalable cloud infrastructure.
-This was complemented by the containerization of software components, such as Spring Boot and TypeScript/Vue.js applications, ensuring their deployment on Kubernetes achieved high availability and resiliency.
+This was complemented by the containerization of software components, such as Java/Spring Boot and TypeScript/Vue.js applications, ensuring their deployment on Kubernetes achieved high availability and resiliency.
 My responsibilities extended to overseeing the platform's technical architecture, ensuring its scalability, security, and maintainability.
 A key part of our strategy was implementing a comprehensive test automation strategy that encompassed fully automated integration, acceptance, and performance testing.
 My leadership in the establishment of a continuous delivery pipeline, leveraging GitLab CI, Helm, GitOps, and ArgoCD, was central to build better software faster.
 Additionally, I developed an operational strategy encompassing monitoring, logging, and alerting to guarantee the platform's reliable operation.
+I further helped to integrate a variety of quantum computing hardware providers, such as IBM, Rigetti, and IonQ, into the platform while exposing them through a unified, Python-based SDK.
 `,
   },
   {
@@ -27,7 +32,7 @@ Additionally, I developed an operational strategy encompassing monitoring, loggi
     end: "12/2022",
     location: "Berlin, Germany - Remote",
     description: `
-While the company was a core member of the PlanQK research project, I took on a leading role of designing and developing the prototype of the PlanQK Platform, which enables stakeholders in the quantum value chain to develop, operate, and monetize quantum services.
+While the company was a core member of the PlanQK research project, I took on a leading role of designing and developing the prototype of the PlanQK Platform, which enables users to develop, operate, and monetize quantum applications and services using a variety of different quantum computing hardware.
 This initial phase laid the groundwork for the platform's evolution, incorporating advanced cloud services, containerization, and continuous delivery practices to facilitate a platform that is able to run quantum applications and services in a secure and scalable manner.
 Apart from that, I provided technical leadership, guiding and mentoring team members while overseeing the platform's technical architecture and design to ensure scalability, security, and maintainability.
 `,
