@@ -11,8 +11,13 @@ const experience = [
     end: "present",
     location: "Berlin, Germany - Remote",
     description: `
-Lead the transformation of the PlanQK Platform from a research prototype into a public SaaS offering.
-Built on top of Kubernetes while embracing continuous delivery to build better software faster.
+I led the transformation of the PlanQK Platform from a research prototype to a public SaaS offering.
+A cornerstone of this transformation was the integration of Google Cloud services, including GKE, Cloud SQL, PubSub, Cloud Build, Cloud Run, and Cloud Storage, which formed the foundation of a robust and scalable cloud infrastructure.
+This was complemented by the containerization of software components, such as Spring Boot and TypeScript/Vue.js applications, ensuring their deployment on Kubernetes achieved high availability and resiliency.
+My responsibilities extended to overseeing the platform's technical architecture, ensuring its scalability, security, and maintainability.
+A key part of our strategy was implementing a comprehensive test automation strategy that encompassed fully automated integration, acceptance, and performance testing.
+My leadership in the establishment of a continuous delivery pipeline, leveraging GitLab CI, Helm, GitOps, and ArgoCD, was central to build better software faster.
+Additionally, I developed an operational strategy encompassing monitoring, logging, and alerting to guarantee the platform's reliable operation.
 `,
   },
   {
@@ -22,8 +27,9 @@ Built on top of Kubernetes while embracing continuous delivery to build better s
     end: "12/2022",
     location: "Berlin, Germany - Remote",
     description: `
-Part of the research project PlanQK.
-Designed and built the PlanQK Platform prototype helping quantum value chain players to develop, operate, and monetize quantum services.
+While the company was a core member of the PlanQK research project, I took on a leading role of designing and developing the prototype of the PlanQK Platform, which enables stakeholders in the quantum value chain to develop, operate, and monetize quantum services.
+This initial phase laid the groundwork for the platform's evolution, incorporating advanced cloud services, containerization, and continuous delivery practices to facilitate a platform that is able to run quantum applications and services in a secure and scalable manner.
+Apart from that, I provided technical leadership, guiding and mentoring team members while overseeing the platform's technical architecture and design to ensure scalability, security, and maintainability.
 `,
   },
   {
@@ -45,7 +51,7 @@ Designed and built the PlanQK Platform prototype helping quantum value chain pla
     description: `
 RnD at HPE Operations Manager i:
 Certified scrum master and senior software engineer of one feature team.
-Strengthened my experience in designing and developing loosely coupled, Java-based software solutions.
+I strengthened my experience in designing and developing loosely coupled, Java-based software solutions.
 I left HPE since the RnD department in Germany was steadily shrinking and therefore lacked the opportunities for further personal development.
 `,
   },
@@ -57,10 +63,9 @@ I left HPE since the RnD department in Germany was steadily shrinking and theref
     location: "Böblingen, Germany",
     description: `
 RnD at HPE Operations Manager i:
-Moved to the core development team of HPE's operation management solution.
-Gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
-Applied agile software development practices using Scrum (SAFe certification).
-Started the M.Sc. course Services Computing part-time at the Reutlingen University.
+I moved to the core development team of HPE's operation management solution and gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
+We applied agile software development practices using Scrum (SAFe certification) to deliver regular releases while maintaining a high level of quality.
+Further, I started the M.Sc. course Services Computing part-time at the Reutlingen University.
 `,
   },
   {
@@ -71,7 +76,7 @@ Started the M.Sc. course Services Computing part-time at the Reutlingen Universi
     location: "Böblingen, Germany",
     description: `
 RnD at HPE BSM Integration Adapter:
-Lead the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HPE Operations Manager i).
+I led the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HPE Operations Manager i).
 Onsite support for strategic HPE customers.
 `,
   },
@@ -83,8 +88,8 @@ Onsite support for strategic HPE customers.
     location: "Böblingen, Germany",
     description: `
 RnD at HPE BSM Integration Adapter:
-Entry-level position as a software engineer. 
-Working on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
+Entry-level position as a software engineer.
+I worked on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
 The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE's operations management solution.
 `,
   },
