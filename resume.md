@@ -8,7 +8,7 @@ const experience = [
     title: "Senior Software Engineer",
     subtitle: "Anaqor - Full-Time",
     start: "07/2021",
-    end: "present",
+    end: "Present",
     location: "Berlin, Germany - Remote",
     description: `
 Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop and operate quantum applications by using a variety of different quantum computing hardware.
