@@ -13,17 +13,23 @@ const props = defineProps<{
 
 <template>
   <div class="box">
-    <h3 class="title">{{ title }}</h3>
-    <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
-    <p v-if="start && end" class="date">
-      {{ start }} - {{ end }}
-    </p>
-    <p v-else-if="start" class="date">
-      {{ start }}
-    </p>
-    <p v-if="location" class="location">
-      {{ location }}
-    </p>
+    <div class="box-header">
+      <div>
+        <h3 class="title">{{ title }}</h3>
+        <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
+      </div>
+      <div>
+        <h3 v-if="start && end" class="date">
+          {{ start }} - {{ end }}
+        </h3>
+        <h3 v-else-if="start" class="date">
+          {{ start }}
+        </h3>
+        <p v-if="location" class="location">
+          {{ location }}
+        </p>
+      </div>
+    </div>
     <div v-if="description" class="description" v-html="description"></div>
   </div>
 </template>
@@ -42,29 +48,41 @@ p, div {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box-header div {
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
 .title {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #333;
   margin-top: 0;
 }
 
 .subtitle {
   font-size: .9rem;
   font-weight: 400;
-  color: #333;
   margin: 0;
 }
 
-.date, .location {
+.date {
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.location {
+  text-align: right;
   font-size: .9rem;
   font-weight: 400;
-  color: #999;
-  margin: 0;
-  padding: 0;
-}
-
-.date p {
   margin: 0;
   padding: 0;
 }
@@ -73,7 +91,6 @@ p, div {
   padding-top: 1rem;
   font-size: .9rem;
   font-weight: 400;
-  color: #666;
   margin: 0;
 }
 
@@ -87,7 +104,6 @@ p, div {
 }
 
 :deep(.description a) {
-  color: #333;
   font-weight: 400;
 }
 </style>
