@@ -16,7 +16,7 @@ Engineering lead for the PlanQK Platform, a platform offering serverless computi
 <strong>Key achievements and learnings:</strong>
 <ul>
 <li>Led a team of 5 engineers to transform the platform from a research prototype to a commercial public PaaS offering.
-<li>Took charge of the technical architecture and mentored the team to development a cloud-native platform based on Kubernetes and Google Cloud.
+<li>Took charge of the technical architecture and mentored the team to develop a cloud-native platform based on Kubernetes and Google Cloud.
 <li>Established a continuous delivery culture while using tools for fully automated software deployments.
 <li>Developed an operational strategy for the platform including monitoring, logging, and alerting to ensure its reliable operation.
 <li>Implemented a comprehensive test automation strategy, covering fully automated integration, acceptance, and performance tests.
