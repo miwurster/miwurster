@@ -93,7 +93,7 @@ SAFe Practitioner, Scaled Agile, Inc. August 2016 (ID 20543643-5990)
 
 Technologies and Languages
 
-Languages: Java, TypeScript, JavaScript, Python
-Technologies: Docker, Kubernetes, GCP, AWS, Git, GitLab CI, GitHub Actions, Helm, ArgoCD, Terraform, Redis, MySQL, Postgres
+Languages: Java, TypeScript, Python
+Technologies: Docker, Kubernetes, GCP, AWS, Helm, ArgoCD, Terraform, Redis, MySQL, Postgres
 Frameworks: Spring Boot, Vue.js, Angular, React
 Applied Concepts: Continuous Delivery, TDD, XP, DevOps, GitOps, Scrum, SAFe
