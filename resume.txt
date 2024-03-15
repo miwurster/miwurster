@@ -7,17 +7,17 @@ Full-Time
 07/2021 - Present
 Berlin, Germany - Remote
 
-Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop, operate, and monetize quantum applications by using a variety of different quantum computing hardware.
+Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop and operate quantum applications by using a variety of different quantum computing hardware.
 
 Key achievements and learnings:
 - Led a team of 5 engineers to transform the platform from a research prototype to a commercial public PaaS offering.
-- Took charge of the technical architecture and mentored the team in the development of a cloud-native platform based on Kubernetes and Google Cloud.
-- Established a continuous delivery pipeline with GitHub Actions, GitLab CI, Helm, GitOps, and ArgoCD for fully automated software deployments.
+- Took charge of the technical architecture and mentored the team to development a cloud-native platform based on Kubernetes and Google Cloud.
+- Established a continuous delivery culture while using tools for fully automated software deployments.
 - Developed an operational strategy for the platform including monitoring, logging, and alerting to ensure its reliable operation.
 - Implemented a comprehensive test automation strategy, covering fully automated integration, acceptance, and performance tests.
 - Learned how to integrate different quantum computing hardware providers (e.g., IBM, Rigetti, IonQ) while exposing them through a unified, Python-based SDK.
 
-Technologies: Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, Helm, ArgoCD, GitOps, GCP, Python
+Technologies: Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, Helm, ArgoCD, GitOps, GitHub Actions, GitLab CI, GCP, Python
 
 
 
@@ -32,9 +32,9 @@ Worked as a research associate at the Institute of Architecture of Application S
 Key achievements and learnings:
 - 20+ peer-reviewed publications, 10 of which are first author contributions.
 - Supervised 30+ students during their seminars and master's theses.
-- Learned how to build large-scale distributed systems using design patterns and pattern languages
-  (Patterns of Enterprise Application Architecture, Enterprise Integration Patterns, Cloud Computing Patterns, Microservice Pattern Language).
+- Gained knowledge in how to build loosely-coupled, distributed systems for the cloud based on best practices and patterns.
 
+Technologies: Java (Spring Boot), TypeScript (Angular), Docker, Kubernetes, Terraform, AWS
 
 
 
@@ -59,7 +59,6 @@ Technologies: Java (Spring Boot), Angular, Postgres, Oracle DB, MSSQL
 
 
 
-
 Software Design Engineer
 Hewlett Packard Enterprise
 Full-Time
@@ -77,9 +76,7 @@ Key achievements and learnings:
 - Got used to work with UNIX-based operating systems, Shell/Bash scripting, and Python.
 - Learned how to integrate software system in a loosely coupled manner using RESTful web services and JMS.
 
-Technologies: Java (Spring, Maven), Apache Flex, Scripting, Python
-
-
+Technologies: Java (Spring, Maven), Apache Flex, Shell/Bash, Python
 
 
 
@@ -92,9 +89,11 @@ SAFe Agilist, Scaled Agile, Inc. November 2016 (ID 71538934-2388)
 SAFe Practitioner, Scaled Agile, Inc. August 2016 (ID 20543643-5990)
 
 
+
+
 Technologies and Languages
 
 Languages: Java, TypeScript, JavaScript, Python
-Technologies: Docker, Kubernetes, Google Cloud, AWS, Git, GitLab CI, GitHub Actions, Helm, ArgoCD, Terraform, Redis, MySQL, Postgres
+Technologies: Docker, Kubernetes, GCP, AWS, Git, GitLab CI, GitHub Actions, Helm, ArgoCD, Terraform, Redis, MySQL, Postgres
 Frameworks: Spring Boot, Vue.js, Angular, React
 Applied Concepts: Continuous Delivery, TDD, XP, DevOps, GitOps, Scrum, SAFe

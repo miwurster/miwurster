@@ -18,10 +18,13 @@ const props = defineProps<{
     <p v-if="start && end" class="date">
       {{ start }} - {{ end }}
     </p>
+    <p v-else-if="start" class="date">
+      {{ start }}
+    </p>
     <p v-if="location" class="location">
       {{ location }}
     </p>
-    <p v-if="description" class="description" v-html="description"></p>
+    <div v-if="description" class="description" v-html="description"></div>
   </div>
 </template>
 
@@ -67,10 +70,20 @@ p, div {
 }
 
 .description {
+  padding-top: 1rem;
   font-size: .9rem;
   font-weight: 400;
   color: #666;
   margin: 0;
+}
+
+:deep(.description ul) {
+  margin-top: .3rem;
+  padding-left: 1.2rem;
+}
+
+:deep(.description li) {
+  margin-top: 0.2rem;
 }
 
 :deep(.description a) {

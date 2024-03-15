@@ -7,95 +7,89 @@ const experience = [
   {
     title: "Senior Software Engineer",
     subtitle: "Anaqor - Full-Time",
-    start: "01/2023",
+    start: "07/2021",
     end: "present",
     location: "Berlin, Germany - Remote",
     description: `
-I led the transformation of the PlanQK Platform from a research prototype to a commercial public PaaS offering.
-Users of the PlanQK Platform bring their own code that can access a variety of different quantum computing hardware through the platform's SDK.
-Notably, the platform ensures that users only pay for the resources they actually consume.
-<br>
-<br>
-A cornerstone of this transformation was the integration of Google Cloud services, including GKE, Cloud SQL, PubSub, Cloud Build, Cloud Run, and Cloud Storage, which formed the foundation of a robust and scalable cloud infrastructure.
-This was complemented by the containerization of software components, such as Java/Spring Boot and TypeScript/Vue.js applications, ensuring their deployment on Kubernetes achieved high availability and resiliency.
-My responsibilities extended to overseeing the platform's technical architecture, ensuring its scalability, security, and maintainability.
-A key part of our strategy was implementing a comprehensive test automation strategy that encompassed fully automated integration, acceptance, and performance testing.
-My leadership in the establishment of a continuous delivery pipeline, leveraging GitLab CI, Helm, GitOps, and ArgoCD, was central to build better software faster.
-Additionally, I developed an operational strategy encompassing monitoring, logging, and alerting to guarantee the platform's reliable operation.
-I further helped to integrate a variety of quantum computing hardware providers, such as IBM, Rigetti, and IonQ, into the platform while exposing them through a unified, Python-based SDK.
-`,
-  },
-  {
-    title: "Senior Software Engineer",
-    subtitle: "StoneOne AG - Full-Time",
-    start: "07/2021",
-    end: "12/2022",
-    location: "Berlin, Germany - Remote",
-    description: `
-While the company was a core member of the PlanQK research project, I took on a leading role of designing and developing the prototype of the PlanQK Platform, which enables users to develop, operate, and monetize quantum applications and services using a variety of different quantum computing hardware.
-This initial phase laid the groundwork for the platform's evolution, incorporating advanced cloud services, containerization, and continuous delivery practices to facilitate a platform that is able to run quantum applications and services in a secure and scalable manner.
-Apart from that, I provided technical leadership, guiding and mentoring team members while overseeing the platform's technical architecture and design to ensure scalability, security, and maintainability.
-`,
+Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop and operate quantum applications by using a variety of different quantum computing hardware.
+<br><br>
+<strong>Key achievements and learnings:</strong>
+<ul>
+<li>Led a team of 5 engineers to transform the platform from a research prototype to a commercial public PaaS offering.
+<li>Took charge of the technical architecture and mentored the team to development a cloud-native platform based on Kubernetes and Google Cloud.
+<li>Established a continuous delivery culture while using tools for fully automated software deployments.
+<li>Developed an operational strategy for the platform including monitoring, logging, and alerting to ensure its reliable operation.
+<li>Implemented a comprehensive test automation strategy, covering fully automated integration, acceptance, and performance tests.
+<li>Learned how to integrate different quantum computing hardware providers (e.g., IBM, Rigetti, IonQ) while exposing them through a unified, Python-based SDK.
+</ul>
+<strong>Technologies:</strong>
+Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, Helm, ArgoCD, GitOps, GitHub Actions, GitLab CI, GCP, Python
+`
   },
   {
     title: "Research Associate",
-    subtitle: "Institute of Architecture of Application Systems (IAAS), University of Stuttgart",
-    start: "03/2017",
+    subtitle: "University of Stuttgart",
+    start: "04/2017",
     end: "06/2021",
     location: "Stuttgart, Germany",
     description: `
-20+ peer-reviewed <a href="/publications">publications</a> in the area of DevOps and cloud-native application deployment automation, 10 of which are first author contributions.
-`,
-  },
-  {
-    title: "Senior Software Engineer and Scrum Master",
-    subtitle: "Hewlett Packard Enterprise - Full-Time",
-    start: "04/2016",
-    end: "03/2017",
-    location: "Böblingen, Germany",
-    description: `
-RnD at HPE Operations Manager i:
-Certified scrum master and senior software engineer of one feature team.
-I strengthened my experience in designing and developing loosely coupled, Java-based software solutions.
-I left HPE since the RnD department in Germany was steadily shrinking and therefore lacked the opportunities for further personal development.
+Worked as a research associate at the Institute of Architecture of Application Systems (IAAS) and contributed in my research to the field of cloud-native architectures and DevOps.
+<br><br>
+<strong>Key achievements and learnings:</strong>
+<ul>
+<li>20+ peer-reviewed <a href="/publications">publications</a>, 10 of which are first author contributions.
+<li>Supervised 30+ students during their seminars and master's theses.
+<li>Gained knowledge in how to build loosely-coupled, distributed systems for the cloud based on best practices and patterns.
+</ul>
+<strong>Technologies:</strong>
+Java (Spring Boot), TypeScript (Angular), Docker, Kubernetes, Terraform, AWS
 `,
   },
   {
     title: "Software Design Engineer",
     subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "02/2015",
-    end: "03/2016",
+    end: "03/2017",
     location: "Böblingen, Germany",
     description: `
-RnD at HPE Operations Manager i:
-I moved to the core development team of HPE's operation management solution and gained experience in enterprise-ready software engineering using Java and Angular while supporting three different database products (Oracle, MSSQL, Postgres).
-We applied agile software development practices using Scrum (SAFe certification) to deliver regular releases while maintaining a high level of quality.
-Further, I started the M.Sc. course Services Computing part-time at the Reutlingen University.
-`,
-  },
-  {
-    title: "Software Design Engineer",
-    subtitle: "Hewlett Packard Enterprise - Full-Time",
-    start: "06/2012",
-    end: "01/2015",
-    location: "Böblingen, Germany",
-    description: `
-RnD at HPE BSM Integration Adapter:
-I led the development to productize different monitoring solution adapters, i.e., to integrate Nagios, SAP Solution Manager, Icinga, and Oracle Enterprise Manager into HPE's operations management solution (HPE Operations Manager i).
-Onsite support for strategic HPE customers.
+<strong>Research and Development (HPE BSM Operations Manager i):</strong><br>
+Contributed as Scrum Master and Full-Stack Developer to HPE's operations management solution.
+<br><br>
+<strong>Key achievements and learnings:</strong>
+<ul>
+<li>Acted as Scrum Master for a feature of 5 engineers.
+<li>Completed 2 SAFe certifications to foster an agile and customer oriented environment.
+<li>Strengthened my knowledge in developing enterprise-ready Java applications supporting three different database products.
+<li>Designed, developed, and maintained software feature according to customer requirements.
+<li>Applied methods of modern software engineering such as code reviews, TDD, and XP.
+<li>Completed the part-time M.Sc. course Services Computing at the Reutlingen University.
+</ul>
+<strong>Technologies:</strong>
+Java (Spring Boot), Angular, Postgres, Oracle DB, MSSQL
 `,
   },
   {
     title: "Software Design Engineer",
     subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "04/2010",
-    end: "05/2012",
+    end: "01/2015",
     location: "Böblingen, Germany",
     description: `
-RnD at HPE BSM Integration Adapter:
-Entry-level position as a software engineer.
-I worked on a software solution and integration platform for multiple different monitoring solutions where I mainly developed parts of the Java backend and the web-based Apache Flex application.
-The loosely coupled software solution helped to monitor different event sources, and, if certain conditions apply, to forward the detected events to HPE's operations management solution.
+<strong>Research and Development (HPE BSM Integration Adapter):</strong>
+<br>
+Contributed to an application allowing to integrate third-party monitoring solutions into HPE's operations management solution.
+<br><br>
+<strong>Key achievements and learnings:</strong>
+<ul>
+<li>Led the development of 4 monitoring solution adapters to integrate different event sources (Nagios, SAP Solution Manager, Icinga, Oracle Enterprise Manager) into HPE's solution.
+<li>Provided onsite support for strategic customers.
+<li>Learned how develop software products at an enterprise scale that are packaged for different operating systems.
+<li>Gained experience in the Java ecosystem using Spring and Maven to develop JEE and Servlet applications.
+<li>Got used to work with UNIX-based operating systems, Shell/Bash scripting, and Python.
+<li>Learned how to integrate software system in a loosely coupled manner using RESTful web services and JMS.
+</ul>
+<strong>Technologies:</strong>
+Java (Spring, Maven), Apache Flex, Shell/Bash, Python
 `,
   },
 ];
@@ -106,14 +100,20 @@ const education = [
     subtitle: "Master of Science (M.Sc.), Services Computing",
     start: "10/2014",
     end: "08/2016",
-    description: "Focus on Cloud Computing, Data Mining and Analytics. Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart)."
+    description: `
+Focus on Cloud Computing, Software Architecture, and Cloud-Native Software Engineering.
+Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart).
+`
   },
   {
     title: "Esslingen University",
     subtitle: "Bachelor of Engineering (B.Eng.), Information Technology",
     start: "10/2006",
     end: "02/2010",
-    description: "Focus on Business Process Management & Software Engineering. Bachelor's thesis at Hewlett Packard Enterprise."
+    description: `
+Focus on Business Process Management & Software Engineering.
+Bachelor's thesis at Hewlett Packard Enterprise.
+`
   },
 ];
 </script>
