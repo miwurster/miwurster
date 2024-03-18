@@ -20,7 +20,7 @@ Engineering lead for the PlanQK Platform, a platform offering serverless computi
 <li>Established a continuous delivery culture while using tools for fully automated software deployments.
 <li>Developed an operational strategy for the platform including monitoring, logging, and alerting to ensure its reliable operation.
 <li>Implemented a comprehensive test automation strategy, covering fully automated integration, acceptance, and performance tests.
-<li>Learned how to integrate different quantum computing hardware providers (e.g., IBM, Rigetti, IonQ) while exposing them through a unified, Python-based SDK.
+<li>Integrated 4 quantum computing hardware providers (IBM, Rigetti, IonQ, DWave) while exposing them through a unified Python SDK.
 </ul>
 <strong>Technologies:</strong>
 Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, Helm, ArgoCD, GitOps, GitHub Actions, GitLab CI, GCP, Python
