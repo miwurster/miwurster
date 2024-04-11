@@ -57,7 +57,7 @@ Contributed as Scrum Master and Full-Stack Developer to HPE's operations managem
 <br><br>
 <strong>Key achievements and learnings:</strong>
 <ul>
-<li>Acted as Scrum Master for a feature of 5 engineers.
+<li>Acted as Scrum Master for a feature team of 5 engineers.
 <li>Completed 2 SAFe certifications to foster an agile and customer oriented environment.
 <li>Strengthened my knowledge in developing enterprise-ready Java applications supporting three different database products.
 <li>Designed, developed, and maintained software feature according to customer requirements.

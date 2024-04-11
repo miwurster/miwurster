@@ -48,7 +48,7 @@ Research and Development (HPE BSM Operations Manager i):
 Contributed as Scrum Master and Full-Stack Developer to HPE's operations management solution.
 
 Key achievements and learnings:
-- Acted as Scrum Master for a feature of 5 engineers.
+- Acted as Scrum Master for a feature team of 5 engineers.
 - Completed 2 SAFe certifications to foster an agile and customer oriented environment.
 - Strengthened my knowledge in developing enterprise-ready Java applications supporting three different database products.
 - Designed, developed, and maintained software feature according to customer requirements.
