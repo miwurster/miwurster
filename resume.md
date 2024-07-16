@@ -5,10 +5,22 @@ title: Resume
 <script setup lang="ts">
 const experience = [
   {
-    title: "Senior Software Engineer",
+    title: "Senior Software Engineer (Lead of Platform Development",
+    subtitle: "Kipu Quantum GmbH - Full-Time",
+    start: "05/2024",
+    end: "Present",
+    location: "Karlsruhe, Baden-Württemberg, Germany - Remote",
+    description: `
+Leading the development of the next-generation quantum computing platform "PlanQK". Our platform leverages serverless computing principles and integrates multiple quantum hardware providers, such as IBM, Rigetti, IonQ or D-Wave, through a unified Python SDK.<br>
+<br>
+My role is to oversee the cloud-native architecture on Kubernetes and Google Cloud, foster a culture of continuous delivery with automated deployments, and develop comprehensive operational and test automation strategies to ensure robustness, reliability, and scalability.
+`
+  },
+  {
+    title: "Senior Software Engineer (Lead of Platform Development)",
     subtitle: "Anaqor - Full-Time",
     start: "07/2021",
-    end: "Present",
+    end: "04/2024",
     location: "Berlin, Germany - Remote",
     description: `
 Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop and operate quantum applications by using a variety of different quantum computing hardware.
