@@ -5,7 +5,7 @@ title: Resume
 <script setup lang="ts">
 const experience = [
   {
-    title: "Senior Software Engineer (Lead of Platform Development",
+    title: "Senior Software Engineer (Lead Platform Development)",
     subtitle: "Kipu Quantum GmbH - Full-Time",
     start: "05/2024",
     end: "Present",
@@ -17,7 +17,7 @@ My role is to oversee the cloud-native architecture on Kubernetes and Google Clo
 `
   },
   {
-    title: "Senior Software Engineer (Lead of Platform Development)",
+    title: "Senior Software Engineer (Lead Platform Development)",
     subtitle: "Anaqor - Full-Time",
     start: "07/2021",
     end: "04/2024",
