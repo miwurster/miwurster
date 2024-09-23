@@ -9,7 +9,7 @@ const experience = [
     subtitle: "Kipu Quantum GmbH - Full-Time",
     start: "05/2024",
     end: "Present",
-    location: "Karlsruhe, Baden-Württemberg, Germany - Remote",
+    location: "Karlsruhe, Germany - Remote",
     description: `
 Leading the development of the next-generation quantum computing platform "PlanQK". Our platform leverages serverless computing principles and integrates multiple quantum hardware providers, such as IBM, Rigetti, IonQ or D-Wave, through a unified Python SDK.<br>
 <br>
