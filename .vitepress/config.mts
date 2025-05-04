@@ -17,7 +17,7 @@ export default defineConfig({
 
     socialLinks: [
       {icon: "github", link: "https://github.com/miwurster"},
-      {icon: "twitter", link: "https://twitter.com/miwurster"},
+      // {icon: "twitter", link: "https://twitter.com/miwurster"},
       {icon: "linkedin", link: "https://www.linkedin.com/in/miwurster"},
       {
         icon: {
