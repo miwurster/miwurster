@@ -1,7 +1,10 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,macos,intellij+all,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,intellij+all,visualstudiocode
+.vitepress/dist
+.vitepress/cache
 
-### Intellij+all ###
+# Created by https://www.toptal.com/developers/gitignore/api/node,macos,visualstudiocode,jetbrains+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,visualstudiocode,jetbrains+all
+
+### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -80,14 +83,14 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-### Intellij+all Patch ###
+### JetBrains+all Patch ###
 # Ignore everything but code style settings and run configurations
 # that are supposed to be shared within teams.
 
 .idea/*
 
-!.idea/codeStyles
-!.idea/runConfigurations
+# !.idea/codeStyles
+# !.idea/runConfigurations
 
 ### macOS ###
 # General
@@ -264,7 +267,7 @@ dist
 
 ### VisualStudioCode ###
 .vscode/*
-.vscode/settings.json
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -281,7 +284,4 @@ dist
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/node,macos,intellij+all,visualstudiocode
-
-.vitepress/dist
-.vitepress/cache
+# End of https://www.toptal.com/developers/gitignore/api/node,macos,visualstudiocode,jetbrains+all
