@@ -13,7 +13,7 @@ const experience = [
     description: `
 Leading the development of the next-generation quantum computing platform "PlanQK". Our platform leverages serverless computing principles and integrates multiple quantum hardware providers, such as IBM, Rigetti, IonQ or D-Wave, through a unified Python SDK.<br>
 <br>
-My role is to oversee the cloud-native architecture on Kubernetes and Google Cloud, foster a culture of continuous delivery with automated deployments, and develop comprehensive operational and test automation strategies to ensure robustness, reliability, and scalability.
+My role is to oversee the cloud-native architecture on Kubernetes and Google Cloud, to foster a culture of continuous delivery with automated deployments, and to develop comprehensive operational and test automation strategies to ensure robustness, reliability, and scalability.
 `
   },
   {
