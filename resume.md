@@ -11,9 +11,15 @@ const experience = [
     end: "Present",
     location: "Karlsruhe, Germany - Remote",
     description: `
-Leading the development of the next-generation quantum computing platform "PlanQK". Our platform leverages serverless computing principles and integrates multiple quantum hardware providers, such as IBM, Rigetti, IonQ or D-Wave, through a unified Python SDK.<br>
-<br>
-My role is to oversee the cloud-native architecture on Kubernetes and Google Cloud, to foster a culture of continuous delivery with automated deployments, and to develop comprehensive operational and test automation strategies to ensure robustness, reliability, and scalability.
+I lead the development of Kipu Quantum Hub (formerly PLANQK), our next-generation quantum computing platform that enables customers to both develop and run quantum experiments and consume ready-to-use quantum applications through well-established API standards.
+This empowers enterprises to seamlessly integrate quantum capabilities into existing systems, workflows, and software landscapes.
+<br><br>
+The platform applies serverless principles and provides unified access to multiple quantum hardware providers—including IBM, Rigetti, IonQ, and D-Wave—via a streamlined Python SDK.
+I oversee the cloud-native architecture on Kubernetes and Google Cloud, drive a strong culture of Continuous Delivery with automated deployments, and design comprehensive strategies for operational excellence and test automation to ensure reliability, robustness, and scalability.
+<br><br>
+<strong>Success Story:</strong>
+I played a key role in onboarding major enterprise customers such as Volkswagen, Capgemini, and BASF.
+These organizations now actively build quantum applications, run large-scale experiments, or consume API-based quantum solutions developed by Kipu or other ecosystem partners through our platform.
 `
   },
   {
@@ -133,13 +139,13 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 # Resume
 
 ::: details About Me
-With a decade of experience in software development, my career spans roles at traditional tech giants, where I contributed to building enterprise-ready products, to dynamic positions in startups, where I honed my skills in rapidly developing, delivering, and adapting products to meet changing market demands. My diverse background has given me a solid foundation in software design and equipped me with a broad skill set to tackle technological challenges.
+With 10 years of experience across startups and established tech companies, I’ve built a strong foundation in software design and end-to-end product delivery.
+From developing enterprise-ready systems to rapidly iterating in agile environments, I thrive on turning complex challenges into scalable solutions.
+Alongside my professional work, I’ve spent over four years in research, publishing 20 papers—10 as first author—which sharpened my analytical thinking and deepened my expertise in cloud-native and distributed systems.
 
-Parallel to my professional journey, I have pursued a rigorous path in research, dedicating over four years to contributing to the academic field with 20 research papers, and notably, leading as the first author in 10 of them. My engagement in research has not only refined my analytical and problem solving skills but has also deepened my understanding of complex software systems, particularly in cloud-native environments.
+I’m skilled in Java (Spring), TypeScript, modern web frameworks (React, Vue, Angular, Node), Python, various databases (Postgres, MySQL, Redis, MSSQL, Oracle), messaging middleware systems (ActiveMQ, Amazon SQS, Google Pub/Sub), Kubernetes, CI/CD (GitLab CI, GitHub Actions, Jenkins), and DevOps/GitOps practices—leveraging tools like Helm, ArgoCD, Terraform, and Ansible to design, deploy, and operate resilient applications.
 
-My technical expertise encompasses Java (Spring Framework, Maven), TypeScript, modern web development frameworks (React, Angular, Vue.js, Node), Python, various database systems (Postgres, MySQL, MSSQL, Oracle, Redis), and messaging middleware systems (ActiveMQ, Amazon SQS, Google Pub/Sub). In recent years, I strengthened my experience with Kubernetes to design and develop distributed applications. My expertise in Continuous Integration and Continuous Delivery (CI/CD), a domain where I have both academic and practical experience, helps me to deploy and operate containerized applications on Kubernetes effectively using proven DevOps tools and practices, such as GitOps, Helm, and ArgoCD. I advocate for agile methodologies while practicing Extreme Programming (XP) and Test-Driven Development (TDD) to ensure quality and reliability.
-
-The combination of a strong foundation in software design, extensive research achievements, and practical expertise in software development positions me to contribute to innovative and technologically advanced software solutions, ensuring they are both cutting-edge and grounded in solid academic and practical insights.
+I love working in environments practicing continuous delivery, TDD, trunk-based development, and pair/mob programming!
 :::
 
 ## Professional Experience
