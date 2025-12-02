@@ -45,13 +45,13 @@ Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, He
 `
   },
   {
-    title: "Research Associate",
+    title: "Research Associate and Technical Consultant",
     subtitle: "University of Stuttgart",
     start: "04/2017",
     end: "06/2021",
     location: "Stuttgart, Germany",
     description: `
-Worked as a research associate at the Institute of Architecture of Application Systems (IAAS) and contributed in my research to the field of cloud-native architectures and DevOps.
+Worked as a research associate at the Institute of Architecture of Application Systems (IAAS) with a personal research focus on cloud-native architectures and DevOps, and additionally served as a technical consultant in various research projects.
 <br><br>
 <strong>Key achievements and learnings:</strong>
 <ul>
