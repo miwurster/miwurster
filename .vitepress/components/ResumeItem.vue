@@ -14,11 +14,11 @@ const props = defineProps<{
 <template>
   <div class="box">
     <div class="box-header">
-      <div>
-        <h3 class="title">{{ title }}</h3>
+      <div v-if="title || subtitle">
+        <h3 v-if="title" class="title">{{ title }}</h3>
         <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
       </div>
-      <div>
+      <div v-if="start || end || location">
         <h3 v-if="start && end" class="date">
           {{ start }} - {{ end }}
         </h3>
@@ -57,7 +57,7 @@ p, div {
 .box-header div {
   flex-direction: column;
   justify-content: flex-start;
-
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -88,7 +88,6 @@ p, div {
 }
 
 .description {
-  padding-top: 1rem;
   font-size: .9rem;
   font-weight: 400;
   margin: 0;
@@ -97,6 +96,7 @@ p, div {
 :deep(.description ul) {
   margin-top: .3rem;
   padding-left: 1.2rem;
+  margin-bottom: .3rem;
 }
 
 :deep(.description li) {

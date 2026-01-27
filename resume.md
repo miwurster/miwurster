@@ -5,109 +5,69 @@ title: Resume
 <script setup lang="ts">
 const experience = [
   {
-    title: "Senior Software Engineer (Lead Platform Development)",
+    title: "Senior Software Engineer, Product & Platform",
     subtitle: "Kipu Quantum GmbH - Full-Time",
     start: "05/2024",
     end: "Present",
     location: "Karlsruhe, Germany - Remote",
     description: `
-I lead the development of Kipu Quantum Hub (formerly PLANQK), our next-generation quantum computing platform that enables customers to both develop and run quantum experiments and consume ready-to-use quantum applications through well-established API standards.
-This empowers enterprises to seamlessly integrate quantum capabilities into existing systems, workflows, and software landscapes.
-<br><br>
-The platform applies serverless principles and provides unified access to multiple quantum hardware providers—including IBM, Rigetti, IonQ, and D-Wave—via a streamlined Python SDK.
-I oversee the cloud-native architecture on Kubernetes and Google Cloud, drive a strong culture of Continuous Delivery with automated deployments, and design comprehensive strategies for operational excellence and test automation to ensure reliability, robustness, and scalability.
-<br><br>
-<strong>Success Story:</strong>
-I played a key role in onboarding major enterprise customers such as Volkswagen, Capgemini, and BASF.
-These organizations now actively build quantum applications, run large-scale experiments, or consume API-based quantum solutions developed by Kipu or other ecosystem partners through our platform.
+<ul>
+<li>Led the end-to-end development of a production quantum-as-a-service platform, enabling customers to build, run, and integrate quantum applications via standardized APIs and SDKs.
+<li>Owned system architecture, frontend and backend development, GitOps-based deployment, and production operation on Kubernetes and Google Cloud.
+<li>Worked closely with customers, Sales, and Business Development to translate direct feedback into product and technical improvements, using monitoring and usage data to reduce friction and improve reliability.
+<li>Built customer-facing UI components and workflows using TypeScript and Vue.js and developed internal and external tooling with Node.js and Python.
+<li>Established a strong Continuous Delivery culture with automated testing and deployments, enabling frequent, low-risk releases.
+<li>Supported onboarding of enterprise customers who actively run experiments or consume quantum services through the platform.
+</ul>
 `
   },
   {
-    title: "Senior Software Engineer (Lead Platform Development)",
+    title: "Senior Software Engineer, Product & Platform",
     subtitle: "Anaqor - Full-Time",
     start: "07/2021",
     end: "04/2024",
     location: "Berlin, Germany - Remote",
     description: `
-Engineering lead for the PlanQK Platform, a platform offering serverless computing principles that enables users to develop and operate quantum applications by using a variety of different quantum computing hardware.
-<br><br>
-<strong>Key achievements and learnings:</strong>
 <ul>
-<li>Led a team of 5 engineers to transform the platform from a research prototype to a commercial public PaaS offering.
-<li>Took charge of the technical architecture and mentored the team to develop a cloud-native platform based on Kubernetes and Google Cloud.
-<li>Established a continuous delivery culture while using tools for fully automated software deployments.
-<li>Developed an operational strategy for the platform including monitoring, logging, and alerting to ensure its reliable operation.
-<li>Implemented a comprehensive test automation strategy, covering fully automated integration, acceptance, and performance tests.
-<li>Integrated 4 quantum computing hardware providers (IBM, Rigetti, IonQ, DWave) while exposing them through a unified Python SDK.
+<li>Led the transition of the PlanQK platform from a research prototype to a commercial public quantum-as-a-service offering.
+<li>Owned the technical architecture and mentored engineers building a cloud-native platform on Kubernetes and Google Cloud.
+<li>Established automated CI/CD pipelines, GitOps workflows, and operational best practices to support reliable production usage.
+<li>Integrated multiple quantum hardware providers behind a unified API and Python SDK.
+<li>Collaborated closely with cross-functional stakeholders to balance product requirements, technical constraints, and long-term platform evolution.
 </ul>
-<strong>Technologies:</strong>
-Java (Spring Boot), TypeScript (Vue.js), Docker, Kubernetes, Redis, Postgres, Helm, ArgoCD, GitOps, GitHub Actions, GitLab CI, GCP, Python
 `
   },
   {
-    title: "Research Associate and Technical Consultant",
+    title: "Research Associate & Technical Consultant",
     subtitle: "University of Stuttgart",
     start: "04/2017",
     end: "06/2021",
     location: "Stuttgart, Germany",
     description: `
-Worked as a research associate at the Institute of Architecture of Application Systems (IAAS) with a personal research focus on cloud-native architectures and DevOps, and additionally served as a technical consultant in various research projects.
-<br><br>
-<strong>Key achievements and learnings:</strong>
 <ul>
-<li>20+ peer-reviewed <a href="/publications">publications</a>, 10 of which are first author contributions.
-<li>Supervised 30+ students during their seminars and master's theses.
-<li>Gained knowledge in how to build loosely-coupled, distributed systems for the cloud based on best practices and patterns.
+<li>Conducted applied research on cloud-native architectures, DevOps, and distributed systems with a strong focus on practical system design.
+<li>Designed and implemented prototype systems and reference architectures using Java (Spring Boot), TypeScript, Kubernetes, and Terraform.
+<li>Served as technical consultant in research and industry-partnered projects, translating conceptual ideas into working software solutions.
+<li>Authored 20+ peer-reviewed publications (10 as first author).
+<li>Supervised and mentored 30+ students in seminars and master’s theses.
 </ul>
-<strong>Technologies:</strong>
-Java (Spring Boot), TypeScript (Angular), Docker, Kubernetes, Terraform, AWS
-`,
-  },
-  {
-    title: "Software Design Engineer",
-    subtitle: "Hewlett Packard Enterprise - Full-Time",
-    start: "02/2015",
-    end: "03/2017",
-    location: "Böblingen, Germany",
-    description: `
-<strong>Research and Development (HPE BSM Operations Manager i):</strong><br>
-Contributed as Scrum Master and Full-Stack Developer to HPE's operations management solution.
-<br><br>
-<strong>Key achievements and learnings:</strong>
-<ul>
-<li>Acted as Scrum Master for a feature team of 5 engineers.
-<li>Completed 2 SAFe certifications to foster an agile and customer oriented environment.
-<li>Strengthened my knowledge in developing enterprise-ready Java applications supporting three different database products.
-<li>Designed, developed, and maintained software feature according to customer requirements.
-<li>Applied methods of modern software engineering such as code reviews, TDD, and XP.
-<li>Completed the part-time M.Sc. course Services Computing at the Reutlingen University.
-</ul>
-<strong>Technologies:</strong>
-Java (Spring Boot), Angular, Postgres, Oracle DB, MSSQL
 `,
   },
   {
     title: "Software Design Engineer",
     subtitle: "Hewlett Packard Enterprise - Full-Time",
     start: "04/2010",
-    end: "01/2015",
+    end: "03/2017",
     location: "Böblingen, Germany",
     description: `
-<strong>Research and Development (HPE BSM Integration Adapter):</strong>
-<br>
-Contributed to an application allowing to integrate third-party monitoring solutions into HPE's operations management solution.
-<br><br>
-<strong>Key achievements and learnings:</strong>
 <ul>
-<li>Led the development of 4 monitoring solution adapters to integrate different event sources (Nagios, SAP Solution Manager, Icinga, Oracle Enterprise Manager) into HPE's solution.
-<li>Provided onsite support for strategic customers.
-<li>Learned how develop software products at an enterprise scale that are packaged for different operating systems.
-<li>Gained experience in the Java ecosystem using Spring and Maven to develop JEE and Servlet applications.
-<li>Got used to work with UNIX-based operating systems, Shell/Bash scripting, and Python.
-<li>Learned how to integrate software system in a loosely coupled manner using RESTful web services and JMS.
+<li>Contributed to the core development of HPE's enterprise operations management platform, building backend services used by large international customers.
+<li>Led development of integration adapters enabling third-party monitoring systems (e.g., Nagios, SAP Solution Manager, Icinga, Oracle Enterprise Manager) to integrate seamlessly with the core platform.
+<li>Designed and implemented customer-facing features and internal platform components in Java (Spring), supporting multiple relational database systems.
+<li>Worked directly with strategic enterprise customers, including onsite support, to ensure reliable operation and successful integrations.
+<li>Acted as Scrum Master for a feature team and applied modern engineering practices such as TDD, XP, and code reviews.
+<li>Built and shipped software packaged for multiple operating systems using Java and Python.
 </ul>
-<strong>Technologies:</strong>
-Java (Spring, Maven), Apache Flex, Shell/Bash, Python
 `,
   },
 ];
@@ -134,21 +94,44 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 `
   },
 ];
+
+const profile = `
+I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems in both startup and enterprise environments. Over the last four years, I've led the end-to-end development of a quantum-as-a-service platform; from product discovery and system architecture to implementation, automated deployment, and production operations.
+<br><br>
+I enjoy working at the intersection of product and engineering, especially in ambiguous problem spaces where close collaboration with users, product, and business stakeholders is essential. I've worked directly with customers, sales, and business development teams, and I regularly use monitoring and usage data to identify friction points and improve the user experience.
+<br><br>
+Technically, I'm strongest in TypeScript (Vue.js, Node.js, React), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and Google Cloud. I value strong engineering practices (Continuous Delivery, TDD, trunk-based development, pair/mob programming, and GitOps) and I've seen how they enable teams to move quickly without sacrificing quality.
+<br><br>
+I'm motivated by roles where engineers own problems end-to-end, ship iteratively, and are accountable for the systems they build.
+`
+
+const skills = `
+<ul>
+<li><strong>Languages & Frameworks:</strong>
+Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python
+<li><strong>Data & Messaging:</strong>
+PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub
+<li><strong>Cloud-Native & Platforms:</strong>
+Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure
+<li><strong>CI/CD & DevOps:</strong>
+GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible
+<li><strong>Engineering Practices:</strong>
+End-to-end ownership, Continuous Delivery, trunk-based development, pair & mob programming, GitOps
+</ul>
+`
 </script>
 
 # Resume
 
-::: details About Me
-I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems in both startup and enterprise environments. Over the last four years, I've led the end-to-end development of a quantum-as-a-service platform; from product discovery and system architecture to implementation, automated deployment, and production operations.
+## Profile
 
-I enjoy working at the intersection of product and engineering, especially in ambiguous problem spaces where close collaboration with users, product, and business stakeholders is essential. I've worked directly with customers, sales, and business development teams, and I regularly use monitoring and usage data to identify friction points and improve the user experience.
+<ResumeItem :description="profile"/>
 
-Technically, I'm strongest in TypeScript (Vue.js, Node.js, React), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and Google Cloud. I value strong engineering practices (Continuous Delivery, TDD, trunk-based development, pair/mob programming, and GitOps) and I've seen how they enable teams to move quickly without sacrificing quality.
+## Skills
 
-I'm motivated by roles where engineers own problems end-to-end, ship iteratively, and are accountable for the systems they build.
-:::
+<ResumeItem :description="skills"/>
 
-## Professional Experience
+## Experience
 
 <ResumeSection :items="experience"></ResumeSection>
 
