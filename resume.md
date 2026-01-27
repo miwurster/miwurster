@@ -139,13 +139,13 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 # Resume
 
 ::: details About Me
-With 10 years of experience across startups and established tech companies, I’ve built a strong foundation in software design and end-to-end product delivery.
-From developing enterprise-ready systems to rapidly iterating in agile environments, I thrive on turning complex challenges into scalable solutions.
-Alongside my professional work, I’ve spent over four years in research, publishing 20 papers—10 as first author—which sharpened my analytical thinking and deepened my expertise in cloud-native and distributed systems.
+I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems in both startup and enterprise environments. Over the last four years, I've led the end-to-end development of a quantum-as-a-service platform; from product discovery and system architecture to implementation, automated deployment, and production operations.
 
-I’m skilled in Java (Spring), TypeScript, modern web frameworks (React, Vue.js, Angular, Node), Python, various databases (Postgres, MySQL, Redis, MSSQL, Oracle), messaging middleware systems (ActiveMQ, Amazon SQS, Google Pub/Sub), Kubernetes, CI/CD (GitLab CI, GitHub Actions, Jenkins), and DevOps/GitOps practices—leveraging tools like Helm, ArgoCD, Terraform, and Ansible to design, deploy, and operate resilient applications.
+I enjoy working at the intersection of product and engineering, especially in ambiguous problem spaces where close collaboration with users, product, and business stakeholders is essential. I've worked directly with customers, sales, and business development teams, and I regularly use monitoring and usage data to identify friction points and improve the user experience.
 
-I love working in environments practicing continuous delivery, TDD, trunk-based development, and pair/mob programming!
+Technically, I'm strongest in TypeScript (Vue.js, Node.js, React), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and Google Cloud. I value strong engineering practices (Continuous Delivery, TDD, trunk-based development, pair/mob programming, and GitOps) and I've seen how they enable teams to move quickly without sacrificing quality.
+
+I'm motivated by roles where engineers own problems end-to-end, ship iteratively, and are accountable for the systems they build.
 :::
 
 ## Professional Experience
