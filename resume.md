@@ -11,12 +11,16 @@ const experience = [
     end: "Present",
     location: "Karlsruhe, Germany - Remote",
     description: `
+<blockquote style='margin-top: 0;'>
+Seed-stage deep-tech startup; continuation of the PLANQK Platform following acquisition from Anaqor; same product, team, and codebase
+</blockquote>
 <ul>
-<li>Led the end-to-end development of a production quantum-as-a-service platform, enabling customers to build, run, and integrate quantum applications via standardized APIs and SDKs.
-<li>Owned system architecture, frontend and backend development, GitOps-based deployment, and production operation on Kubernetes and Google Cloud.
-<li>Worked closely with customers, Sales, and Business Development to translate direct feedback into product and technical improvements, using monitoring and usage data to reduce friction and improve reliability.
-<li>Built customer-facing UI components and workflows using TypeScript and Vue.js and developed internal and external tooling with Node.js and Python.
-<li>Established a strong Continuous Delivery culture with automated testing and deployments, enabling frequent, low-risk releases.
+<li>Led the continued end-to-end development of a production quantum-as-a-service platform, enabling customers to build, run, and integrate quantum applications via standardized APIs and SDKs.
+<li>Carried responsibility for system architecture, frontend and backend development, automated GitOps-based deployment, and production operations on Kubernetes and Google Cloud Platform (GCP).
+<li>Defined and implemented customer-facing features and flows in TypeScript (UI, CLI) and Python (SDK), translating direct customer feedback and usage data into concrete UX and functional improvements.
+<li>Designed and evolved backend services and data models using Java (Spring Boot) and PostgreSQL, iterating on them based on production behavior, reliability issues, and scaling needs.
+<li>Established and maintained CI/CD and GitOps workflows, enabling frequent, low-risk releases and reducing operational overhead.
+<li>Operated the platform in production, using monitoring and incident analysis to drive continuous improvements in reliability, usability, and developer experience.
 <li>Supported onboarding of enterprise customers who actively run experiments or consume quantum services through the platform.
 </ul>
 `
@@ -28,12 +32,16 @@ const experience = [
     end: "04/2024",
     location: "Berlin, Germany - Remote",
     description: `
+<blockquote style='margin-top: 0;'>
+Pre-seed startup
+</blockquote>
 <ul>
-<li>Led the transition of the PlanQK platform from a research prototype to a commercial public quantum-as-a-service offering.
-<li>Owned the technical architecture and mentored engineers building a cloud-native platform on Kubernetes and Google Cloud.
-<li>Established automated CI/CD pipelines, GitOps workflows, and operational best practices to support reliable production usage.
-<li>Integrated multiple quantum hardware providers behind a unified API and Python SDK.
-<li>Collaborated closely with cross-functional stakeholders to balance product requirements, technical constraints, and long-term platform evolution.
+<li>Joined at an early stage to help evolve the PLANQK Platform from a research prototype into a commercial, publicly available quantum-as-a-service offering.
+<li>Took responsibility for core architectural decisions and implemented key platform components across frontend, backend, and infrastructure.
+<li>Built customer-facing functionality and APIs, working closely with early users to refine workflows and platform behavior based on real-world usage.
+<li>Implemented and iterated on cloud-native deployment and operational practices on Kubernetes, laying the foundation for reliable production usage.
+<li>Integrated multiple quantum hardware providers behind a unified API and Python SDK, balancing abstraction with performance and provider-specific constraints.
+<li>Collaborated closely with product, business, and research stakeholders to define scope, make trade-offs, and ship features in a fast-moving startup environment.
 </ul>
 `
   },
@@ -96,13 +104,11 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 ];
 
 const profile = `
-I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems in both startup and enterprise environments. Over the last four years, I've led the end-to-end development of a quantum-as-a-service platform; from product discovery and system architecture to implementation, automated deployment, and production operations.
+I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems in both startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, owning it end-to-end from product discovery and system architecture to implementation, automated deployment, and production operations.
 <br><br>
-I enjoy working at the intersection of product and engineering, especially in ambiguous problem spaces where close collaboration with users, product, and business stakeholders is essential. I've worked directly with customers, sales, and business development teams, and I regularly use monitoring and usage data to identify friction points and improve the user experience.
+I enjoy working at the intersection of product and engineering, especially in early-stage, fast-moving environments where requirements are incomplete and engineers are trusted to define scope, make trade-offs, and ship. My work spans the full lifecycle: collaborating on problem definition, implementing customer-facing features, building backend services and data models, establishing CI/CD and GitOps workflows, and operating systems in production. I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure).
 <br><br>
-Technically, I'm strongest in TypeScript (Vue.js, Node.js, React), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and Google Cloud. I value strong engineering practices (Continuous Delivery, TDD, trunk-based development, pair/mob programming, and GitOps) and I've seen how they enable teams to move quickly without sacrificing quality.
-<br><br>
-I'm motivated by roles where engineers own problems end-to-end, ship iteratively, and are accountable for the systems they build.
+I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
 `
 
 const skills = `
@@ -116,7 +122,7 @@ Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure
 <li><strong>CI/CD & DevOps:</strong>
 GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible
 <li><strong>Engineering Practices:</strong>
-End-to-end ownership, Continuous Delivery, trunk-based development, pair & mob programming, GitOps
+End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps
 </ul>
 `
 </script>

@@ -15,7 +15,7 @@ const members = [
   {
     name: "Michael Wurster",
     avatar: "https://www.github.com/miwurster.png",
-    desc: "Product-minded Senior Software Engineer building & operating customer-facing platforms end-to-end. Continuous Delivery enthusiast!",
+    desc: "Senior Software Engineer building & operating customer-facing platforms end-to-end. Early-stage startup experience. Continuous Delivery enthusiast!",
     links: [
       { icon: "github", link: "https://github.com/miwurster" },
       { icon: "twitter", link: "https://twitter.com/miwurster" },
