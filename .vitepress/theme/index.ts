@@ -3,6 +3,7 @@ import DefaultTheme from "vitepress/theme";
 
 import vitepressBackToTop from "vitepress-plugin-back-to-top";
 import "vitepress-plugin-back-to-top/dist/style.css";
+import "./styles/custom.css";
 
 // @ts-ignore
 import ResumeItem from "../components/ResumeItem.vue";

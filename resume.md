@@ -103,11 +103,13 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 ];
 
 const profile = `
+<p class="justified">
 I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance.
 <br><br>
 I enjoy working at the intersection of product and engineering, especially in early-stage, fast-moving environments where requirements are incomplete and engineers are trusted to define scope, make trade-offs, and ship. My work spans the full lifecycle: collaborating on problem definition, implementing customer-facing features, designing backend services and data models, and establishing CI/CD and GitOps workflows. I place strong emphasis on clear architectural boundaries and sustainable design, using principles such as Domain-Driven Design and Clean Architecture to enable systems to evolve over time.
 <br><br>
 I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure). I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
+</p>
 `
 
 const skills = `
