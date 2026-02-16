@@ -40,10 +40,10 @@ Plans:
   1. CollapsibleResumeItem is globally available in the VitePress theme (registered in theme/index.ts)
   2. Profile section on the resume page renders as a collapsible card instead of a static ResumeItem
   3. Skills section on the resume page renders as a collapsible card instead of a static ResumeItem
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 02-01: TBD
+- [ ] 02-01-PLAN.md — Register CollapsibleResumeItem globally and integrate into resume page
 
 ## Progress
 
