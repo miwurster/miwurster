@@ -2,43 +2,53 @@
 
 ## What This Is
 
-A new Vue component for the personal resume site that makes the Profile and Skills sections collapsible. These sections currently render as static content boxes via `ResumeItem`, but will be wrapped in a `CollapsibleResumeItem` component that starts collapsed, shows a first-line preview with fade, and expands/collapses smoothly when the user clicks the header row.
+A Vue 3 component for the personal resume site that makes the Profile and Skills sections collapsible. The component starts collapsed with a first-line preview and gradient fade, expands/collapses smoothly on click with a rotating chevron indicator. Integrated into the live VitePress resume page.
 
 ## Core Value
 
 The resume page becomes scannable — readers see section headings with a content preview and can expand only what interests them, reducing visual overload.
 
+## Current State
+
+**Shipped:** v1.0 (2026-02-16)
+**Codebase:** ~144 lines added across 3 files (Vue 3 + TypeScript)
+**Tech stack:** VitePress, Vue 3 Composition API, CSS transitions
+
+The CollapsibleResumeItem component is built, globally registered, and integrated into the resume page for Profile and Skills sections. Both sections collapse by default on page load.
+
 ## Requirements
 
 ### Validated
 
-- ✓ Resume page renders Profile, Skills, Experience, Education sections — existing
-- ✓ `ResumeItem` component displays structured content cards — existing
-- ✓ `ResumeSection` component renders lists of `ResumeItem` — existing
-- ✓ VitePress static site builds and deploys via GitHub Actions — existing
+- ✓ CollapsibleResumeItem Vue component with expand/collapse behavior — v1.0
+- ✓ Collapsed state shows first ~1 line of content with gradient fade-out — v1.0
+- ✓ Clickable header row with rotating chevron indicator — v1.0
+- ✓ Smooth CSS slide animation for expand/collapse transitions — v1.0
+- ✓ Profile and Skills sections use CollapsibleResumeItem on resume page — v1.0
+- ✓ Component starts collapsed by default on page load — v1.0
+- ✓ HTML content rendered via v-html in both states — v1.0
+- ✓ Component globally registered in VitePress theme — v1.0
 
 ### Active
 
-- [ ] New `CollapsibleResumeItem` Vue component with expand/collapse behavior
-- [ ] Collapsed state shows first ~1 line of content with a fade-out effect
-- [ ] Clickable header row with chevron icon that rotates on expand/collapse
-- [ ] Smooth slide animation for expand/collapse transitions
-- [ ] Both Profile and Skills sections use `CollapsibleResumeItem` instead of `ResumeItem`
-- [ ] Component starts collapsed by default on page load
+(None — next milestone requirements to be defined via `/gsd-new-milestone`)
 
 ### Out of Scope
 
 - Collapsible behavior for Experience or Education sections — those are multi-item lists via `ResumeSection` and need different treatment
 - Persisting expand/collapse state across page navigations — static site, no state management
-- Accessibility beyond basic keyboard support — can be added later if needed
+- Accordion group behavior (mutual exclusion) — Profile and Skills are independent; collapsing one when other opens worsens UX
 
 ## Context
 
-- The site is a VitePress static site with Vue 3 components in `.vitepress/components/`
-- Components are globally registered in `.vitepress/theme/index.ts`
-- Profile and Skills are rendered in `resume.md` as `<ResumeItem :description="profile"/>` and `<ResumeItem :description="skills"/>`
-- Content is raw HTML strings passed via the `description` prop and rendered with `v-html`
-- No external dependencies for animation — CSS transitions are sufficient for this use case
+Shipped v1.0 with 144 LOC across 3 files (TypeScript/Vue).
+Tech stack: VitePress, Vue 3 Composition API (`<script setup>`), CSS transitions (max-height).
+No external dependencies added — all animation via CSS, chevron via CSS border triangle.
+User visually verified and approved both phases on live dev server.
+
+**Potential next areas:**
+- Accessibility (keyboard support already works via `<button>`, but ARIA attributes and prefers-reduced-motion not yet implemented)
+- Polish (configurable preview height, print styles, dark/light theme fade)
 
 ## Constraints
 
@@ -51,9 +61,11 @@ The resume page becomes scannable — readers see section headings with a conten
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Separate component vs. prop on ResumeItem | Keeps ResumeItem simple and unchanged; collapsible behavior is a distinct concern | — Pending |
-| CSS transitions for animation | No added bundle size; sufficient for a simple slide effect | — Pending |
-| Chevron via CSS/unicode rather than icon library | No new dependencies for a single icon | — Pending |
+| Separate component vs. prop on ResumeItem | Keeps ResumeItem simple and unchanged; collapsible behavior is a distinct concern | ✓ Good — clean separation, no regressions |
+| CSS max-height transition (not grid 0fr/1fr) | Grid approach doesn't support partial-collapse preview (showing ~1 line) | ✓ Good — smooth animation with preview |
+| Chevron via CSS border triangle (not icon library) | No new dependencies for a single icon | ✓ Good — zero bundle impact |
+| Header as `<button>` element | Free keyboard support (Enter/Space), focus ring, and screen reader semantics | ✓ Good — accessibility by default |
+| Keep ## markdown headers alongside component | Section headers preserve page structure and navigation | ✓ Good — clean page outline |
 
 ---
-*Last updated: 2026-02-16 after initialization*
+*Last updated: 2026-02-16 after v1.0 milestone*
