@@ -27,10 +27,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. A chevron icon rotates to reflect expanded/collapsed state
   4. Content slides open and closed with a smooth CSS animation (no jump or flicker)
   5. HTML content strings passed via the description prop render correctly in both states
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01-PLAN.md — Build CollapsibleResumeItem component with expand/collapse behavior
 
 ### Phase 2: Site Integration
 **Goal**: The resume page uses CollapsibleResumeItem for Profile and Skills sections, making the live site scannable
@@ -52,5 +52,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Collapsible Component | 0/0 | Not started | - |
+| 1. Collapsible Component | 0/1 | Planned | - |
 | 2. Site Integration | 0/0 | Not started | - |
