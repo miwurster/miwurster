@@ -13,7 +13,7 @@ Build a `CollapsibleResumeItem` Vue component that makes Profile and Skills sect
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Collapsible Component** - Build the CollapsibleResumeItem component with all expand/collapse behavior
-- [ ] **Phase 2: Site Integration** - Register the component and replace static Profile/Skills sections
+- [x] **Phase 2: Site Integration** - Register the component and replace static Profile/Skills sections
 
 ## Phase Details
 
@@ -43,7 +43,7 @@ Plans:
 **Plans:** 1 plan
 
 Plans:
-- [ ] 02-01-PLAN.md — Register CollapsibleResumeItem globally and integrate into resume page
+- [x] 02-01-PLAN.md — Register CollapsibleResumeItem globally and integrate into resume page
 
 ## Progress
 
@@ -53,4 +53,4 @@ Phases execute in numeric order: 1 → 2
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Collapsible Component | 1/1 | Complete | 2026-02-16 |
-| 2. Site Integration | 0/0 | Not started | - |
+| 2. Site Integration | 1/1 | Complete | 2026-02-16 |
