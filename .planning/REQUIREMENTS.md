@@ -58,9 +58,9 @@ Deferred to future release. Tracked but not in current roadmap.
 | CORE-04 | Phase 1 | Pending |
 | CORE-05 | Phase 1 | Pending |
 | CORE-06 | Phase 1 | Pending |
-| INTG-01 | Phase 1 | Pending |
-| INTG-02 | Phase 1 | Pending |
-| INTG-03 | Phase 1 | Pending |
+| INTG-01 | Phase 2 | Pending |
+| INTG-02 | Phase 2 | Pending |
+| INTG-03 | Phase 2 | Pending |
 
 **Coverage:**
 - v1 requirements: 9 total
@@ -69,4 +69,4 @@ Deferred to future release. Tracked but not in current roadmap.
 
 ---
 *Requirements defined: 2026-02-16*
-*Last updated: 2026-02-16 after initial definition*
+*Last updated: 2026-02-16 after roadmap creation*
