@@ -135,11 +135,11 @@ End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob P
 
 ## Profile
 
-<ResumeItem :description="profile"/>
+<CollapsibleResumeItem title="Profile" :description="profile"/>
 
 ## Skills
 
-<ResumeItem :description="skills"/>
+<CollapsibleResumeItem title="Skills" :description="skills"/>
 
 ## Experience
 

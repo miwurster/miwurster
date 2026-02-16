@@ -9,6 +9,8 @@ import "./styles/custom.css";
 import ResumeItem from "../components/ResumeItem.vue";
 // @ts-ignore
 import ResumeSection from "../components/ResumeSection.vue";
+// @ts-ignore
+import CollapsibleResumeItem from "../components/CollapsibleResumeItem.vue";
 
 export default {
   extends: DefaultTheme,
@@ -18,5 +20,6 @@ export default {
     });
     app.component('ResumeItem', ResumeItem)
     app.component('ResumeSection', ResumeSection)
+    app.component('CollapsibleResumeItem', CollapsibleResumeItem)
   },
 } satisfies Theme;
