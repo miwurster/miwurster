@@ -11,7 +11,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 
 Milestone: v1.0 CollapsibleResumeItem ✅ SHIPPED
 Status: Milestone complete, archived, tagged
-Last activity: 2026-02-16 — v1.0 milestone archived
+Last activity: 2026-02-21 — Completed quick task 1: Refactor resume profile and skills to use markdown-based Vue component slots
 
 ## Accumulated Context
 
@@ -27,6 +27,12 @@ None.
 ### Blockers/Concerns
 
 None.
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 1 | Refactor resume profile and skills to use markdown-based Vue component slots | 2026-02-21 | 9bdce33 | [1-refactor-resume-profile-and-skills-to-us](./quick/1-refactor-resume-profile-and-skills-to-us/) |
 
 ## Session Continuity
 
