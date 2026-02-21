@@ -12,10 +12,6 @@ import ResumeSection from "../components/ResumeSection.vue";
 // @ts-ignore
 import CollapsibleResumeItem from "../components/CollapsibleResumeItem.vue";
 // @ts-ignore
-import ResumeProfile from "../components/ResumeProfile.vue";
-// @ts-ignore
-import ResumeSkills from "../components/ResumeSkills.vue";
-// @ts-ignore
 import Skills from "../components/Skills.vue";
 
 export default {
@@ -27,8 +23,6 @@ export default {
     app.component('ResumeItem', ResumeItem)
     app.component('ResumeSection', ResumeSection)
     app.component('CollapsibleResumeItem', CollapsibleResumeItem)
-    app.component('ResumeProfile', ResumeProfile)
-    app.component('ResumeSkills', ResumeSkills)
     app.component('Skills', Skills)
   },
 } satisfies Theme;

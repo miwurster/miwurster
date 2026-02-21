@@ -6,8 +6,7 @@ defineProps<{
 
 <template>
   <div class="skill-row">
-    <strong>{{ name }}:</strong>
-    <span><slot /></span>
+    <strong>{{ name }}:</strong>&nbsp;<slot />
   </div>
 </template>
 

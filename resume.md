@@ -108,7 +108,7 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 
 <p></p>
 
-<ResumeProfile>
+<CollapsibleResumeItem title="Profile">
 
 I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance. Beyond the core platform, I regularly contribute by shaping architectural direction and operational practices across multiple product streams.
 
@@ -116,16 +116,16 @@ I enjoy working at the intersection of product and engineering, especially in ea
 
 I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure). I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
 
-</ResumeProfile>
+</CollapsibleResumeItem>
 
-<ResumeSkills>
+<CollapsibleResumeItem title="Skills">
 <Skills name="Languages & Frameworks">Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python</Skills>
 <Skills name="Data & Messaging">PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub</Skills>
 <Skills name="Cloud-Native & Platforms">Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure</Skills>
 <Skills name="CI/CD & DevOps">GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana</Skills>
 <Skills name="Architecture & Design">Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability</Skills>
 <Skills name="Engineering Practices">End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps</Skills>
-</ResumeSkills>
+</CollapsibleResumeItem>
 
 ## Experience
 

@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
-const props = defineProps<{
+defineProps<{
   title: string
-  description: string
 }>()
 
 const expanded = ref(false)
@@ -12,13 +11,10 @@ const contentHeight = ref(0)
 
 function toggle() {
   expanded.value = !expanded.value
-}
-
-onMounted(() => {
-  if (contentRef.value) {
+  if (expanded.value && contentRef.value) {
     contentHeight.value = contentRef.value.scrollHeight
   }
-})
+}
 </script>
 
 <template>
@@ -32,7 +28,9 @@ onMounted(() => {
       class="content-wrapper"
       :style="expanded ? { maxHeight: contentHeight + 'px' } : undefined"
     >
-      <div class="content" v-html="description"></div>
+      <div class="content">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -133,7 +131,11 @@ onMounted(() => {
 }
 
 :deep(.content p) {
-  margin: 0;
+  margin: 0 0 0.6rem 0;
   line-height: 1.3rem;
+}
+
+:deep(.content p:last-child) {
+  margin-bottom: 0;
 }
 </style>
