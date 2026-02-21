@@ -102,41 +102,30 @@ Bachelor's thesis at Hewlett Packard Enterprise.
 `
   },
 ];
-
-const profile = `
-<p class="justified">
-I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance. Beyond the core platform, I regularly contribute by shaping architectural direction and operational practices across multiple product streams.
-<br><br>
-I enjoy working at the intersection of product and engineering, especially in early-stage, fast-moving environments where requirements are incomplete and engineers are trusted to define scope, make trade-offs, and ship. My work spans the full lifecycle: collaborating on problem definition, implementing customer-facing features, designing backend services and data models, and establishing CI/CD and GitOps workflows. I place strong emphasis on clear architectural boundaries and sustainable design, using principles such as Domain-Driven Design and Clean Architecture to enable systems to evolve over time.
-<br><br>
-I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure). I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
-</p>
-`
-
-const skills = `
-<ul>
-<li><strong>Languages & Frameworks:</strong>
-Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python
-<li><strong>Data & Messaging:</strong>
-PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub
-<li><strong>Cloud-Native & Platforms:</strong>
-Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure
-<li><strong>CI/CD & DevOps:</strong>
-GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana
-<li><strong>Architecture & Design:</strong>
-Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability
-<li><strong>Engineering Practices:</strong>
-End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps
-</ul>
-`
 </script>
 
 # Resume
 
 <p></p>
-<CollapsibleResumeItem title="Profile" :description="profile"/>
 
-<CollapsibleResumeItem title="Skills" :description="skills"/>
+<ResumeProfile>
+
+I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance. Beyond the core platform, I regularly contribute by shaping architectural direction and operational practices across multiple product streams.
+
+I enjoy working at the intersection of product and engineering, especially in early-stage, fast-moving environments where requirements are incomplete and engineers are trusted to define scope, make trade-offs, and ship. My work spans the full lifecycle: collaborating on problem definition, implementing customer-facing features, designing backend services and data models, and establishing CI/CD and GitOps workflows. I place strong emphasis on clear architectural boundaries and sustainable design, using principles such as Domain-Driven Design and Clean Architecture to enable systems to evolve over time.
+
+I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure). I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
+
+</ResumeProfile>
+
+<ResumeSkills>
+<Skills name="Languages & Frameworks">Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python</Skills>
+<Skills name="Data & Messaging">PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub</Skills>
+<Skills name="Cloud-Native & Platforms">Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure</Skills>
+<Skills name="CI/CD & DevOps">GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana</Skills>
+<Skills name="Architecture & Design">Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability</Skills>
+<Skills name="Engineering Practices">End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps</Skills>
+</ResumeSkills>
 
 ## Experience
 
