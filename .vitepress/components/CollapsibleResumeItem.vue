@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 defineProps<{
   title: string
+  justify?: boolean
 }>()
 
 const expanded = ref(false)
@@ -28,7 +29,7 @@ function toggle() {
       class="content-wrapper"
       :style="expanded ? { maxHeight: contentHeight + 'px' } : undefined"
     >
-      <div class="content">
+      <div :class="['content', { justified: justify }]">
         <slot />
       </div>
     </div>
