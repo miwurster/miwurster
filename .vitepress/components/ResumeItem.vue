@@ -15,7 +15,7 @@ const props = defineProps<{
     <div class="box-header">
       <div v-if="title || subtitle">
         <h3 v-if="title" class="title">{{ title }}</h3>
-        <p v-if="subtitle" class="subtitle">{{ subtitle }}</p>
+        <p v-if="subtitle" class="subtitle" v-html="subtitle"></p>
       </div>
       <div v-if="start || end || location">
         <h3 v-if="start && end" class="date">
