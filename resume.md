@@ -6,7 +6,7 @@ title: Resume
 
 <p/>
 
-<CollapsibleResumeItem title="Profile">
+<CollapsibleResumeItem title="Profile" :justify="true">
 
 I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance. Beyond the core platform, I regularly contribute by shaping architectural direction and operational practices across multiple product streams.
 
