@@ -11,7 +11,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 
 Milestone: v1.0 CollapsibleResumeItem ✅ SHIPPED
 Status: Milestone complete, archived, tagged
-Last activity: 2026-02-22 — Completed quick task 6: Support <br> tags in ResumeItem subtitle via v-html
+Last activity: 2026-02-22 — Completed quick task 6: Support br tags in ResumeItem subtitle property
 
 ## Accumulated Context
 
