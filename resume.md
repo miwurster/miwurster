@@ -85,7 +85,7 @@ Master's thesis at the Institute of Architecture of Application Systems (Univers
 
 </ResumeItem>
 
-<ResumeItem title="Esslingen University" subtitle="Bachelor of Engineering (B.Eng.), Information Systems (Wirtschaftsinformatik)" start="10/2006" end="02/2010">
+<ResumeItem title="Esslingen University" subtitle="Bachelor of Engineering (B.Eng.),<br>Information Systems (Wirtschaftsinformatik)" start="10/2006" end="02/2010">
 
 Focus on Business Process Management & Software Engineering.
 Bachelor's thesis at Hewlett Packard Enterprise.
