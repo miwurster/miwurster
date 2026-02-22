@@ -25,7 +25,7 @@ I've worked closely with customers, sales, and business stakeholders, and regula
 <Skills name="Engineering Practices">End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps</Skills>
 </CollapsibleResumeItem>
 
-<CollapsibleResumeItem title="Experience">
+## Experience
 
 <ResumeItem title="Senior Software Engineer, Product & Platform" subtitle="Kipu Quantum GmbH - Full-Time" start="05/2024" end="Present" location="Karlsruhe, Germany - Remote">
 
@@ -76,9 +76,7 @@ I've worked closely with customers, sales, and business stakeholders, and regula
 
 </ResumeItem>
 
-</CollapsibleResumeItem>
-
-<CollapsibleResumeItem title="Education">
+## Education
 
 <ResumeItem title="Reutlingen University" subtitle="Master of Science (M.Sc.), Services Computing" start="10/2014" end="08/2016">
 
@@ -93,5 +91,3 @@ Focus on Business Process Management & Software Engineering.
 Bachelor's thesis at Hewlett Packard Enterprise.
 
 </ResumeItem>
-
-</CollapsibleResumeItem>
