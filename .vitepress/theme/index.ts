@@ -8,8 +8,6 @@ import "./styles/custom.css";
 // @ts-ignore
 import ResumeItem from "../components/ResumeItem.vue";
 // @ts-ignore
-import ResumeSection from "../components/ResumeSection.vue";
-// @ts-ignore
 import CollapsibleResumeItem from "../components/CollapsibleResumeItem.vue";
 // @ts-ignore
 import Skills from "../components/Skills.vue";
@@ -21,7 +19,6 @@ export default {
       threshold: 300,
     });
     app.component('ResumeItem', ResumeItem)
-    app.component('ResumeSection', ResumeSection)
     app.component('CollapsibleResumeItem', CollapsibleResumeItem)
     app.component('Skills', Skills)
   },

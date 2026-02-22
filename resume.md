@@ -4,7 +4,7 @@ title: Resume
 
 # Resume
 
-<p></p>
+<p/>
 
 <CollapsibleResumeItem title="Profile">
 
