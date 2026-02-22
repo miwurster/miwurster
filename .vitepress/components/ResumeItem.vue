@@ -108,9 +108,10 @@ p, div {
 
 :deep(.description blockquote) {
   font-size: .9rem;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.3rem;
-  margin: 0 0 .3rem 0;
+  margin: 0 0 .5rem 0;
   padding: .2rem .8rem;
   border-left: 3px solid #e1e9ee;
   color: inherit;
