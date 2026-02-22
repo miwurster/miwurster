@@ -4,41 +4,55 @@ title: Resume
 
 # Resume
 
-<p/>
+<CollapsibleResumeItem title="Profile" :justify="true" style="margin-top: 2rem">
 
-<CollapsibleResumeItem title="Profile" :justify="true">
+Senior Software Engineer with 10+ years of experience building and owning complex, customer-facing systems across startup and enterprise environments. 
+For the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, with end-to-end responsibility from discovery and architecture through implementation, safe releases, and production reliability.
 
-I'm a Senior Software Engineer with 10+ years of experience building and operating complex, customer-facing systems across startup and enterprise environments. Over the last four years, I've worked continuously on the same product, a quantum-as-a-service platform, carrying end-to-end responsibility from product discovery and system architecture through implementation, automated deployment, and production operations. In this context, I've designed and evolved both system-level and code-level architectures, applying proven patterns for distributed and loosely coupled systems to support long-term maintainability and change tolerance. Beyond the core platform, I regularly contribute by shaping architectural direction and operational practices across multiple product streams.
+I focus on sustainable architecture for distributed systems: clear boundaries, loosely coupled services, and change-tolerant design (DDD / Clean Architecture). 
+I drive reliability improvements through strong observability and continuous learning from production behavior, and I regularly shape architectural direction and reliability practices across multiple product streams.
 
-I enjoy working at the intersection of product and engineering, especially in early-stage, fast-moving environments where requirements are incomplete and engineers are trusted to define scope, make trade-offs, and ship. My work spans the full lifecycle: collaborating on problem definition, implementing customer-facing features, designing backend services and data models, and establishing CI/CD and GitOps workflows. I place strong emphasis on clear architectural boundaries and sustainable design, using principles such as Domain-Driven Design and Clean Architecture to enable systems to evolve over time.
-
-I've worked closely with customers, sales, and business stakeholders, and regularly use monitoring and usage data to guide technical and product decisions. Technically, I'm strongest in TypeScript (Vue.js, React, Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience building cloud-native systems on Kubernetes and public cloud platforms (GCP, AWS, Azure). I'm motivated by roles where engineers carry responsibility from initial design through production operation and long-term maintenance.
+I enjoy environments where engineers define scope, make trade-offs, and ship. 
+Technically, I'm strongest in TypeScript (Vue.js/React/Node.js), Java (Spring Boot), Python, and PostgreSQL, with deep experience in Kubernetes and public cloud platforms (GCP/AWS/Azure). 
+I'm looking for Platform/Backend/Product roles with long-term production ownership.
 
 </CollapsibleResumeItem>
 
 <CollapsibleResumeItem title="Skills">
-<Skills name="Languages & Frameworks">Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python</Skills>
-<Skills name="Data & Messaging">PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub</Skills>
-<Skills name="Cloud-Native & Platforms">Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure</Skills>
-<Skills name="CI/CD & DevOps">GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana</Skills>
-<Skills name="Architecture & Design">Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability</Skills>
-<Skills name="Engineering Practices">End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps</Skills>
+<Skills name="Languages & Frameworks">
+Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python
+</Skills>
+<Skills name="Data & Messaging">
+PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub
+</Skills>
+<Skills name="Cloud-Native & Platforms">
+Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure
+</Skills>
+<Skills name="CI/CD & DevOps">
+GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana
+</Skills>
+<Skills name="Architecture & Design">
+Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability
+</Skills>
+<Skills name="Engineering Practices">
+End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps
+</Skills>
 </CollapsibleResumeItem>
 
 ## Experience
 
 <ResumeItem title="Senior Software Engineer, Product & Platform" subtitle="Kipu Quantum GmbH - Full-Time" start="05/2024" end="Present" location="Karlsruhe, Germany - Remote">
 
-> Seed-stage deep-tech startup; continuation of the PLANQK Platform following acquisition from Anaqor; same product, team, and codebase
+> Seed-stage deep-tech startup
 
-- Led the continued end-to-end development of a production quantum-as-a-service platform, enabling customers to build, run, and integrate quantum applications via standardized APIs and SDKs.
-- Carried responsibility for system architecture and technical direction, alongside frontend and backend development, automated GitOps-based deployment, and production operations on Kubernetes and Google Cloud Platform (GCP).
-- Defined and evolved the platform's system and code architecture, applying proven patterns for distributed and loosely coupled systems as well as Domain-Driven Design and Clean Architecture principles to ensure long-term maintainability and change tolerance.
-- Shaped system and code-level architecture across multiple product streams beyond the core platform, advising teams on architectural direction, operational setup, and long-term maintainability.
-- Designed and evolved backend services and data models using Java (Spring Boot) and PostgreSQL, iterating on them based on production behavior, reliability issues, and scaling needs.
-- Defined and implemented customer-facing features and flows in TypeScript (UI, CLI) and Python (SDK), translating direct customer feedback and usage data into concrete UX and functional improvements.
-- Established and maintained CI/CD and GitOps workflows and operated the platform in production, using monitoring and incident analysis (Datadog, Grafana, Loki) to enable frequent, low-risk releases and drive continuous improvements in reliability, usability, and developer experience.
-- Supported onboarding of enterprise customers who actively run experiments or consume quantum services through the platform.
+- Joined Kipu Quantum via the acquisition of Anaqor’s platform software and a full team transfer (Anaqor was later terminated).
+- Owned a customer-facing quantum-as-a-service platform end-to-end (architecture, implementation, production reliability).
+- Designed and evolved backend services and data models in Java (Spring Boot) and PostgreSQL, iterating based on production behavior, reliability signals, and scaling needs.
+- Delivered customer-facing workflows across TypeScript (UI/CLI) and Python (SDK), turning direct customer feedback and usage data into UX and functional improvements.
+- Evolved the architecture using DDD / Clean Architecture and patterns for distributed, loosely coupled systems to keep boundaries clear and enable long-term change.
+- Built a paved release path with automated deployments to enable safe, repeatable releases.
+- Improved reliability through observability standards (metrics/logs/traces) and systematic incident learnings.
+- Shaped architecture across multiple product streams beyond the core platform, advising teams on architectural direction, reliability practices, and long-term maintainability.
 
 </ResumeItem>
 
@@ -46,22 +60,23 @@ I've worked closely with customers, sales, and business stakeholders, and regula
 
 > Pre-seed startup
 
-- Joined at an early stage to help evolve the PLANQK Platform from a research prototype into a commercial, publicly available quantum-as-a-service offering.
-- Took responsibility for core architectural decisions, designing a modular and loosely coupled platform and establishing clear service and domain boundaries using Domain-Driven Design and Clean Architecture principles.
-- Built customer-facing functionality and APIs, working closely with early users to refine workflows and platform behavior based on real-world usage.
-- Designed and iterated on cloud-native deployment and operational architectures on Kubernetes, laying the foundation for reliable and scalable production usage.
+- Built the initial version of a customer-facing quantum-as-a-service platform; later transferred to Kipu Quantum following the acquisition of the platform software and a full team transfer.
+- Designed a modular architecture using DDD / Clean Architecture to maintain clear domain boundaries and enable long-term evolution.
+- Implemented core platform capabilities and APIs (auth, multi-tenancy, billing, job orchestration) in a cloud-native environment (Kubernetes, Java/Spring Boot, TypeScript).
+- Built product-facing UI components and workflows to enable self-service platform usage (e.g., onboarding, tenant/admin flows, billing views).
+- Established foundational observability and reliability practices (metrics/logs/traces) to support scalable production usage.
 - Integrated multiple quantum hardware providers behind a unified API and Python SDK, balancing abstraction with performance and provider-specific constraints.
-- Collaborated closely with product, business, and research stakeholders to define scope, make trade-offs, and ship features in a fast-moving startup environment.
+- Collaborated with product, business, and research stakeholders to define scope, make trade-offs, and ship features in a fast-moving startup environment.
 
 </ResumeItem>
 
 <ResumeItem title="Research Associate & Technical Consultant" subtitle="University of Stuttgart" start="04/2017" end="06/2021" location="Stuttgart, Germany">
 
-- Conducted applied research on cloud-native architectures, DevOps, and distributed systems with a strong focus on practical system design.
+- Conducted applied research on cloud-native architectures, software delivery practices, and distributed systems, with a strong focus on practical system design.
 - Designed and implemented prototype systems and reference architectures using Java (Spring Boot), TypeScript, Kubernetes, and Terraform.
 - Served as technical consultant in research and industry-partnered projects, translating conceptual ideas into working software solutions.
 - Authored 20+ peer-reviewed publications (10 as first author).
-- Supervised and mentored 30+ students in seminars and master's theses.
+- Supervised and mentored 30+ students in seminars and master’s theses.
 
 </ResumeItem>
 
