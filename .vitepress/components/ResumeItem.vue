@@ -105,4 +105,19 @@ p, div {
 :deep(.description a) {
   font-weight: 400;
 }
+
+:deep(.description blockquote) {
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  margin: 0 0 .3rem 0;
+  padding: .2rem .8rem;
+  border-left: 3px solid #e1e9ee;
+  color: inherit;
+}
+
+:deep(.description blockquote p) {
+  margin: 0;
+  line-height: 1.3rem;
+}
 </style>
