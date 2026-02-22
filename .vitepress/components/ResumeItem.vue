@@ -7,7 +7,6 @@ const props = defineProps<{
   start?: string
   end?: string
   location?: string
-  description?: string
 }>()
 </script>
 
@@ -30,7 +29,7 @@ const props = defineProps<{
         </p>
       </div>
     </div>
-    <div v-if="description" class="description" v-html="description"></div>
+    <div class="description"><slot /></div>
   </div>
 </template>
 
