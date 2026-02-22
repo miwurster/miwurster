@@ -54,6 +54,12 @@ None — plan executed exactly as written.
 - `grep "script setup" resume.md` → no results ✅
 - `grep "<slot" .vitepress/components/ResumeItem.vue` → matches ✅
 
+## Post-Execution Correction
+
+After executor completed, user clarified that Experience and Education should **not** be collapsible — the UX must remain always-visible. The `<CollapsibleResumeItem>` wrappers were removed and `## Experience` / `## Education` headings restored.
+
+Commit: `ddfc0ea` — fix: unwrap experience and education from CollapsibleResumeItem
+
 ## Self-Check: PASSED
 
 Files verified:
