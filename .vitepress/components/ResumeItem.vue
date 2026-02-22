@@ -123,4 +123,8 @@ p, div {
   font-size: .9rem;
   line-height: 1.3rem;
 }
+
+:deep(.description p:last-child) {
+  margin: 0;
+}
 </style>
