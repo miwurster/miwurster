@@ -11,7 +11,7 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 
 Milestone: v1.0 CollapsibleResumeItem ✅ SHIPPED
 Status: Milestone complete, archived, tagged
-Last activity: 2026-02-22 — Completed quick task 4: Fix paragraph margin spacing in ResumeItem
+Last activity: 2026-02-22 — Completed quick task 5: Extend CollapsibleResumeItem to support justified text
 
 ## Accumulated Context
 
@@ -36,9 +36,10 @@ None.
 | 2 | Refactor resume work and education experience to use markdown-based Vue component slots | 2026-02-22 | ddfc0ea | [2-refactor-resume-work-and-education-exper](./quick/2-refactor-resume-work-and-education-exper/) |
 | 3 | Fix blockquote styling in ResumeItem: match paragraph font and reduce top margin | 2026-02-22 | 8ac6dc6 | [3-fix-blockquote-styling-in-resumeitem-mat](./quick/3-fix-blockquote-styling-in-resumeitem-mat/) |
 | 4 | Fix paragraph margin spacing in ResumeItem component | 2026-02-22 | 663fccb | [4-fix-paragraph-margin-spacing-in-resumeit](./quick/4-fix-paragraph-margin-spacing-in-resumeit/) |
+| 5 | Extend CollapsibleResumeItem to support justified text via optional justify prop | 2026-02-22 | 7b5306f | [5-extend-collapsibleresumeitem-to-support-](./quick/5-extend-collapsibleresumeitem-to-support-/) |
 
 ## Session Continuity
 
 Last session: 2026-02-22
-Stopped at: Completed quick task 4: Fix paragraph margin spacing in ResumeItem
+Stopped at: Completed quick task 5: Extend CollapsibleResumeItem to support justified text
 Next step: `/gsd-new-milestone` for next version
