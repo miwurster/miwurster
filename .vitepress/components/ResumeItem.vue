@@ -117,4 +117,10 @@ p, div {
   font-size: .9rem;
   line-height: 1.3rem;
 }
+
+:deep(.description p) {
+  margin: 0 0 .5rem 0;
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
 </style>
