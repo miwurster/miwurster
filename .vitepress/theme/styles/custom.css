@@ -3,7 +3,4 @@
     text-align: justify;
     text-justify: inter-word; /* Controls how justification is applied */
     hyphens: auto; /* Enables automatic hyphenation */
-
-    margin: 0 !important;
-    line-height: 1.5em !important;
 }
