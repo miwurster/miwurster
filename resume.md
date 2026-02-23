@@ -45,7 +45,7 @@ End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob P
 
 > Seed-stage deep-tech startup
 
-- Joined Kipu Quantum via the acquisition of Anaqor’s platform software and a full team transfer (Anaqor was later terminated).
+- Joined Kipu Quantum via the acquisition of Anaqor's platform software and a full team transfer (Anaqor was later terminated).
 - Owned a customer-facing quantum-as-a-service platform end-to-end (architecture, implementation, production reliability).
 - Shaped architecture across multiple product streams beyond the core platform, advising teams on architectural direction, reliability practices, and long-term maintainability.
 - Designed and evolved backend services and data models in Java (Spring Boot) and PostgreSQL, iterating based on production behavior, reliability signals, and scaling needs.
@@ -76,7 +76,7 @@ End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob P
 - Designed and implemented prototype systems and reference architectures using Java (Spring Boot), TypeScript, Kubernetes, and Terraform.
 - Served as technical consultant in research and industry-partnered projects, translating conceptual ideas into working software solutions.
 - Authored 20+ peer-reviewed publications (10 as first author).
-- Supervised and mentored 30+ students in seminars and master’s theses.
+- Supervised and mentored 30+ students in seminars and master's theses.
 
 </ResumeItem>
 
