@@ -47,12 +47,12 @@ End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob P
 
 - Joined Kipu Quantum via the acquisition of Anaqor’s platform software and a full team transfer (Anaqor was later terminated).
 - Owned a customer-facing quantum-as-a-service platform end-to-end (architecture, implementation, production reliability).
+- Shaped architecture across multiple product streams beyond the core platform, advising teams on architectural direction, reliability practices, and long-term maintainability.
 - Designed and evolved backend services and data models in Java (Spring Boot) and PostgreSQL, iterating based on production behavior, reliability signals, and scaling needs.
 - Delivered customer-facing workflows across TypeScript (UI/CLI) and Python (SDK), turning direct customer feedback and usage data into UX and functional improvements.
 - Evolved the architecture using DDD / Clean Architecture and patterns for distributed, loosely coupled systems to keep boundaries clear and enable long-term change.
 - Built a paved release path with automated deployments to enable safe, repeatable releases.
 - Improved reliability through observability standards (metrics/logs/traces) and systematic incident learnings.
-- Shaped architecture across multiple product streams beyond the core platform, advising teams on architectural direction, reliability practices, and long-term maintainability.
 
 </ResumeItem>
 
