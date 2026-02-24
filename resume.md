@@ -18,27 +18,6 @@ I'm looking for Platform/Backend/Product roles with long-term production ownersh
 
 </CollapsibleResumeItem>
 
-<CollapsibleResumeItem title="Skills">
-<Skills name="Languages & Frameworks">
-Java (Spring Boot, Maven), TypeScript (Node.js, Vue.js, React, Angular), Python
-</Skills>
-<Skills name="Data & Messaging">
-PostgreSQL, MySQL, Redis, Oracle DB, Microsoft SQL Server, ActiveMQ, Amazon SQS, Google Pub/Sub
-</Skills>
-<Skills name="Cloud-Native & Platforms">
-Kubernetes, Docker, Google Cloud Platform (GCP), AWS, Azure
-</Skills>
-<Skills name="CI/CD & DevOps">
-GitLab CI, GitHub Actions, Jenkins, Helm, ArgoCD, Terraform, Ansible, Loki, Datadog, Grafana
-</Skills>
-<Skills name="Architecture & Design">
-Distributed and loosely coupled systems, Domain-Driven Design (DDD), Clean Architecture, designing for long-term evolution and maintainability
-</Skills>
-<Skills name="Engineering Practices">
-End-to-end ownership, Continuous Delivery, Trunk-based Development, Pair & Mob Programming, GitOps
-</Skills>
-</CollapsibleResumeItem>
-
 ## Experience
 
 <ResumeItem title="Senior Software Engineer, Product & Platform" subtitle="Kipu Quantum GmbH - Full-Time" start="05/2024" end="Present" location="Karlsruhe, Germany - Remote">
