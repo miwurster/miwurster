@@ -1,11 +1,111 @@
+import fs from "node:fs";
+import path from "node:path";
 import {defineConfig} from "vitepress";
+import llmstxt from "vitepress-plugin-llms";
+
+const SITE_HOSTNAME = "https://about.miwurster.com";
+const SITE_TITLE = "Michael Wurster | Principal Software Engineer";
+const SITE_DESCRIPTION = "Principal Software Engineer with 15+ years building customer-facing distributed systems. Java, TypeScript, Python, Kubernetes. 20+ research papers.";
+
+const PERSON = {
+  "@type": "Person",
+  name: "Michael Wurster",
+  jobTitle: "Principal Software Engineer",
+  worksFor: {"@type": "Organization", name: "Kipu Quantum GmbH", url: "https://kipu-quantum.com"},
+  image: "https://www.github.com/miwurster.png",
+  url: SITE_HOSTNAME,
+  sameAs: ["https://github.com/miwurster", "https://www.linkedin.com/in/miwurster"],
+};
+const PROFILE_PAGES = ["index.md", "resume.md"];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcExclude: ["AGENTS.md", "CLAUDE.md", "CONTEXT.md", "docs/**"],
+  srcExclude: ["AGENTS.md", "CLAUDE.md", "CONTEXT.md", "README.md", "docs/**"],
 
-  title: "Michael Wurster | Software Engineer",
-  description: "Software Engineer with 10+ years at tech giants & startups, 20+ research papers. Skilled in Java, TypeScript, Python, and Kubernetes. Loves continuous delivery!",
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+
+  cleanUrls: true,
+  sitemap: {hostname: SITE_HOSTNAME},
+
+  transformPageData(pageData) {
+    const canonicalPath = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, "$1")
+      .replace(/\.md$/, "");
+    const canonicalUrl = `${SITE_HOSTNAME}/${canonicalPath}`;
+    const title = pageData.title ? `${pageData.title} | ${SITE_TITLE}` : SITE_TITLE;
+    const description = pageData.description || SITE_DESCRIPTION;
+
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push(
+      ["link", {rel: "canonical", href: canonicalUrl}],
+      ["meta", {property: "og:type", content: "profile"}],
+      ["meta", {property: "og:title", content: title}],
+      ["meta", {property: "og:description", content: description}],
+      ["meta", {property: "og:url", content: canonicalUrl}],
+      ["meta", {property: "og:image", content: PERSON.image}],
+      ["meta", {property: "twitter:card", content: "summary"}],
+      ["meta", {property: "twitter:title", content: title}],
+      ["meta", {property: "twitter:description", content: description}],
+    );
+
+    // vitepress-plugin-llms emits a sibling .md for every non-index page.
+    // Advertise it so head-parsing agents can fetch the markdown source.
+    if (!pageData.relativePath.endsWith("index.md")) {
+      pageData.frontmatter.head.push(
+        ["link", {rel: "alternate", type: "text/markdown", href: `/${canonicalPath}.md`}],
+      );
+    }
+
+    if (PROFILE_PAGES.includes(pageData.relativePath)) {
+      const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        name: title,
+        description,
+        url: canonicalUrl,
+        inLanguage: "en",
+        mainEntity: PERSON,
+      };
+      pageData.frontmatter.head.push(
+        ["script", {type: "application/ld+json"}, JSON.stringify(jsonLd)],
+      );
+    }
+  },
+
+  vite: {
+    plugins: [
+      llmstxt(),
+      // Teach agents reading llms.txt the URL convention for per-page markdown.
+      {
+        name: "annotate-llms-txt",
+        closeBundle: () => {
+          const llmsPath = path.resolve(__dirname, "dist/llms.txt");
+          if (!fs.existsSync(llmsPath)) return;
+          const marker = "the markdown source is available at";
+          const contents = fs.readFileSync(llmsPath, "utf-8");
+          if (contents.includes(marker)) return;
+          const note = `For any page at \`${SITE_HOSTNAME}/<path>\`, ${marker} \`${SITE_HOSTNAME}/<path>.md\`.`;
+          const lines = contents.split("\n");
+          const descIdx = lines.findIndex(line => line.startsWith("> "));
+          if (descIdx === -1) return;
+          lines.splice(descIdx + 1, 0, "", note);
+          fs.writeFileSync(llmsPath, lines.join("\n"));
+        },
+      },
+      // Publish llms.txt at the /.well-known/ prefix for agents that probe there.
+      {
+        name: "copy-llms-well-known",
+        closeBundle: () => {
+          const src = path.resolve(__dirname, "dist/llms.txt");
+          if (!fs.existsSync(src)) return;
+          const dstDir = path.resolve(__dirname, "dist/.well-known");
+          fs.mkdirSync(dstDir, {recursive: true});
+          fs.copyFileSync(src, path.join(dstDir, "llms.txt"));
+        },
+      },
+    ],
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -31,7 +131,7 @@ export default defineConfig({
 
     footer: {
       // message: 'Released under the MIT License.',
-      copyright: 'Copyright © 1983-present | Michael Wurster | Software Engineer'
+      copyright: 'Copyright © 1983-present | Michael Wurster | Principal Software Engineer'
     },
 
     // lastUpdated: true,

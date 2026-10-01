@@ -1,6 +1,170 @@
+/* Resume timeline.
+   Each .resume-item is plain markdown (title, subtitle, .resume-meta, body)
+   so the generated resume.md stays readable for agents. */
 
-.justified {
-    text-align: justify;
-    text-justify: inter-word; /* Controls how justification is applied */
-    hyphens: auto; /* Enables automatic hyphenation */
+.vp-doc .resume-item {
+  --rail: 10.5rem;
+  --dot: 11px;
+  position: relative;
+  padding: 0 0 2.25rem calc(var(--rail) + 1.5rem);
+}
+
+/* The rail: one segment per item, joined because items have no margin. */
+.vp-doc .resume-item::before {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  bottom: -0.55rem;
+  left: var(--rail);
+  width: 1px;
+  background: var(--vp-c-divider);
+}
+
+.vp-doc .resume-item:last-of-type::before {
+  bottom: 2.25rem;
+}
+
+/* The dot. Hollow for past entries, filled for the ongoing one. */
+.vp-doc .resume-item::after {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  left: calc(var(--rail) - var(--dot) / 2 + 0.5px);
+  width: var(--dot);
+  height: var(--dot);
+  border-radius: 50%;
+  border: 2px solid var(--vp-c-text-3);
+  background: var(--vp-c-bg);
+}
+
+.vp-doc .resume-item.ongoing::after {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 4px var(--vp-c-brand-soft);
+}
+
+.vp-doc .resume-item h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.vp-doc .resume-item h3 + p {
+  margin: 0.1rem 0 0.9rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.9375rem;
+}
+
+/* Dates and location sit left of the rail. */
+.vp-doc .resume-meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--rail) - 1.25rem);
+  text-align: right;
+}
+
+.vp-doc .resume-meta p {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .resume-meta p:first-child {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc .resume-item blockquote {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  border: 0;
+}
+
+.vp-doc .resume-item blockquote p {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .resume-item ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.vp-doc .resume-item li {
+  margin-top: 0.35rem;
+  line-height: 1.6;
+}
+
+.vp-doc .resume-item p {
+  line-height: 1.6;
+}
+
+/* Narrow screens: meta moves above the title, rail hugs the left edge. */
+@media (max-width: 640px) {
+  .vp-doc .resume-item {
+    --rail: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+  }
+
+  .vp-doc .resume-meta {
+    position: static;
+    order: -1;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.75rem;
+    align-items: baseline;
+    text-align: left;
+  }
+
+  .vp-doc .resume-item::before {
+    top: 0.55rem;
+  }
+}
+
+@media print {
+  .VPNav,
+  .VPLocalNav,
+  .VPFooter,
+  .VPDocFooter,
+  .aside,
+  .go-to-top {
+    display: none !important;
+  }
+
+  .VPContent,
+  .VPDoc {
+    padding: 0 !important;
+  }
+
+  .vp-doc .resume-item {
+    break-inside: avoid;
+  }
+
+  .vp-doc .resume-item::after,
+  .vp-doc .resume-item.ongoing::after {
+    border-color: #000;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .vp-doc .resume-item.ongoing::after {
+    background: #000;
+  }
+
+  .vp-doc .resume-item::before {
+    background: #999;
+  }
+
+  .vp-doc a {
+    color: inherit;
+  }
 }

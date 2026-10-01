@@ -5,7 +5,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1",
-    "vitepress-plugin-back-to-top": "^1"
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-back-to-top": "^1.0.1",
+    "vitepress-plugin-llms": "^1.14.0"
   }
 }

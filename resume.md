@@ -4,7 +4,9 @@ title: Resume
 
 # Resume
 
-<CollapsibleResumeItem title="Profile" :justify="true" style="margin-top: 2rem">
+## Profile
+
+<CollapsibleResumeItem>
 
 Principal Software Engineer with 15+ years of experience building and owning complex, customer-facing systems across startup and enterprise environments. Since 2021, I've worked continuously on the same product, a quantum-as-a-service platform (Kipu Quantum Hub, formerly PLANQK), with end-to-end responsibility from discovery and architecture through implementation, safe releases, and production reliability.
 
@@ -18,16 +20,40 @@ I enjoy environments where engineers define scope, make trade-offs, and ship. Te
 
 ## Experience
 
-<ResumeItem title="Principal Software Engineer" subtitle="Kipu Quantum GmbH - Full-Time" start="09/2026" end="Present" location="Berlin, Germany - Remote">
+<div class="resume-item ongoing">
+
+### Principal Software Engineer
+
+Kipu Quantum GmbH, Full-Time
+
+<div class="resume-meta">
+
+09/2026 - Present
+
+Berlin, Germany, Remote
+
+</div>
 
 - Set technical direction for Kipu Quantum Hub and advise 3 adjacent product streams on architecture, reliability and long-term maintainability.
 - Lead AI-assisted engineering at Kipu, using my architecture and engineering background to steer AI coding agents toward reliable, maintainable code. Main contributor to and maintainer of our Claude Code skill set: 20 in-house skills plus 9 curated third-party ones, used by ~10 engineers. The skills encode our standards, such as ADRs, TDD, DDD, Clean Architecture, code review and release flows.
 - Work this way myself: AI coding agents implemented about half of my recent stories and bugs under my review.
 - Own the technical side of SOC 2 Type II compliance as we work toward a clean audit report. Built the technical baseline, a SOC 2-compliant GCP setup, shaped our SDLC processes, including vulnerability and incident management, and contributed to company-wide security policies.
 
-</ResumeItem>
+</div>
 
-<ResumeItem title="Senior Software Engineer" subtitle="Kipu Quantum GmbH - Full-Time" start="05/2024" end="09/2026" location="Berlin, Germany - Remote">
+<div class="resume-item">
+
+### Senior Software Engineer
+
+Kipu Quantum GmbH, Full-Time
+
+<div class="resume-meta">
+
+05/2024 - 09/2026
+
+Berlin, Germany, Remote
+
+</div>
 
 > Deep-tech startup
 
@@ -39,9 +65,21 @@ I enjoy environments where engineers define scope, make trade-offs, and ship. Te
 - Designed and evolved backend services and data models in Java (Spring Boot) and PostgreSQL, based on production behavior, reliability signals and scaling needs.
 - Ran the platform in production on Kubernetes and GCP and set up CI/CD and GitOps release workflows with monitoring, so the team ships about 9 low-risk production releases per week across 21 services.
 
-</ResumeItem>
+</div>
 
-<ResumeItem title="Senior Software Engineer" subtitle="Anaqor - Full-Time" start="07/2021" end="04/2024" location="Berlin, Germany - Remote">
+<div class="resume-item">
+
+### Senior Software Engineer
+
+Anaqor, Full-Time
+
+<div class="resume-meta">
+
+07/2021 - 04/2024
+
+Berlin, Germany, Remote
+
+</div>
 
 > Pre-seed startup
 
@@ -53,9 +91,21 @@ I enjoy environments where engineers define scope, make trade-offs, and ship. Te
 - Integrated multiple quantum hardware providers behind a unified API and Python SDK, balancing abstraction with performance and provider-specific constraints.
 - Collaborated with product, business, and research stakeholders to define scope, make trade-offs, and ship features in a fast-moving startup environment.
 
-</ResumeItem>
+</div>
 
-<ResumeItem title="Research Associate & Technical Consultant" subtitle="University of Stuttgart" start="04/2017" end="06/2021" location="Stuttgart, Germany">
+<div class="resume-item">
+
+### Research Associate & Technical Consultant
+
+University of Stuttgart
+
+<div class="resume-meta">
+
+04/2017 - 06/2021
+
+Stuttgart, Germany
+
+</div>
 
 - Conducted applied research on cloud-native architectures, software delivery practices, and distributed systems, with a strong focus on practical system design.
 - Designed and implemented prototype systems and reference architectures using Java (Spring Boot), TypeScript, Kubernetes, and Terraform.
@@ -63,9 +113,21 @@ I enjoy environments where engineers define scope, make trade-offs, and ship. Te
 - Authored 20+ peer-reviewed publications (10 as first author).
 - Supervised and mentored 30+ students in seminars and master's theses.
 
-</ResumeItem>
+</div>
 
-<ResumeItem title="Software Design Engineer" subtitle="Hewlett Packard Enterprise - Full-Time" start="04/2010" end="03/2017" location="Böblingen, Germany">
+<div class="resume-item">
+
+### Software Design Engineer
+
+Hewlett Packard Enterprise, Full-Time
+
+<div class="resume-meta">
+
+04/2010 - 03/2017
+
+Böblingen, Germany
+
+</div>
 
 - Contributed to the core development of HPE's enterprise operations management platform, building backend services used by large international customers.
 - Led development of integration adapters enabling third-party monitoring systems (e.g., Nagios, SAP Solution Manager, Icinga, Oracle Enterprise Manager) to integrate seamlessly with the core platform.
@@ -74,20 +136,40 @@ I enjoy environments where engineers define scope, make trade-offs, and ship. Te
 - Acted as Scrum Master for a feature team and applied modern engineering practices such as TDD, XP, and code reviews.
 - Built and shipped software packaged for multiple operating systems using Java and Python.
 
-</ResumeItem>
+</div>
 
 ## Education
 
-<ResumeItem title="Reutlingen University" subtitle="Master of Science (M.Sc.), Services Computing" start="10/2014" end="08/2016">
+<div class="resume-item">
+
+### Reutlingen University
+
+Master of Science (M.Sc.), Services Computing
+
+<div class="resume-meta">
+
+10/2014 - 08/2016
+
+</div>
 
 Focus on Cloud Computing, Software Architecture, and Cloud-Native Software Engineering.
 Master's thesis at the Institute of Architecture of Application Systems (University of Stuttgart).
 
-</ResumeItem>
+</div>
 
-<ResumeItem title="Esslingen University" subtitle="Bachelor of Engineering (B.Eng.),<br>Information Systems (Wirtschaftsinformatik)" start="10/2006" end="02/2010">
+<div class="resume-item">
+
+### Esslingen University
+
+Bachelor of Engineering (B.Eng.), Information Systems (Wirtschaftsinformatik)
+
+<div class="resume-meta">
+
+10/2006 - 02/2010
+
+</div>
 
 Focus on Business Process Management & Software Engineering.
 Bachelor's thesis at Hewlett Packard Enterprise.
 
-</ResumeItem>
+</div>

@@ -1,142 +1,71 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-defineProps<{
-  title: string
-  justify?: boolean
-}>()
+import {ref} from "vue"
 
 const expanded = ref(false)
-const contentRef = ref<HTMLElement | null>(null)
-const contentHeight = ref(0)
-
-function toggle() {
-  expanded.value = !expanded.value
-  if (expanded.value && contentRef.value) {
-    contentHeight.value = contentRef.value.scrollHeight
-  }
-}
 </script>
 
 <template>
-  <div :class="['collapsible-box', { expanded }]">
-    <button class="collapsible-header" @click="toggle" :aria-expanded="expanded">
-      <span class="collapsible-title">{{ title }}</span>
-      <span class="chevron" aria-hidden="true" />
-    </button>
-    <div
-      ref="contentRef"
-      class="content-wrapper"
-      :style="expanded ? { maxHeight: contentHeight + 'px' } : undefined"
-    >
-      <div :class="['content', { justified: justify }]">
-        <slot />
-      </div>
+  <div :class="['collapsible', {expanded}]">
+    <div id="collapsible-content" class="content">
+      <slot/>
     </div>
+    <button class="toggle" aria-controls="collapsible-content" :aria-expanded="expanded" @click="expanded = !expanded">
+      {{ expanded ? "Show less" : "Read full profile" }}
+    </button>
   </div>
 </template>
 
 <style scoped>
-.collapsible-box {
-  border: 1px solid #e1e9ee;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.collapsible-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
-  text-align: left;
-  margin-bottom: 0.5rem;
-}
-
-.collapsible-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.chevron {
-  border: solid var(--vp-c-text-3);
-  border-width: 0 1.5px 1.5px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-45deg);
-  transition: transform 0.3s ease;
-  flex-shrink: 0;
-  margin-left: 12px;
-}
-
-.expanded .chevron {
-  transform: rotate(45deg);
-}
-
-.collapsible-header:hover .chevron {
-  border-color: var(--vp-c-text-2);
-}
-
-.content-wrapper {
-  max-height: 1.5em;
-  overflow: hidden;
-  position: relative;
-  transition: max-height 0.3s ease;
-}
-
-.content-wrapper::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1.5em;
-  background: linear-gradient(transparent, var(--vp-c-bg));
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.expanded .content-wrapper::after {
-  opacity: 0;
-}
-
 .content {
-  font-size: .9rem;
-  font-weight: 400;
-  margin: 0;
+  display: grid;
+  max-height: 4.8em;
+  overflow: hidden;
+  mask-image: linear-gradient(black 30%, transparent);
+  transition: max-height 0.4s ease;
 }
 
-:deep(.content ul) {
-  margin-top: .3rem;
-  padding-left: 1.2rem;
-  margin-bottom: .3rem;
+.expanded .content {
+  max-height: 60em;
+  mask-image: none;
 }
 
-:deep(.content li) {
-  margin-top: 0.2rem;
+.content :deep(p) {
+  margin: 0 0 0.8em;
+  line-height: 1.6;
 }
 
-:deep(.content a) {
-  font-weight: 400;
+.toggle {
+  margin-top: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
 }
 
-:deep(.content > :first-child) {
-  margin-top: 0;
+.toggle:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-:deep(.content p) {
-  margin: 0 0 0.6rem 0;
-  line-height: 1.3rem;
+.toggle:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
-:deep(.content p:last-child) {
-  margin-bottom: 0;
+@media (prefers-reduced-motion: reduce) {
+  .content {
+    transition: none;
+  }
+}
+
+@media print {
+  .content {
+    max-height: none;
+    mask-image: none;
+  }
+
+  .toggle {
+    display: none;
+  }
 }
 </style>
