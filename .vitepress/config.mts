@@ -2,6 +2,8 @@ import {defineConfig} from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcExclude: ["AGENTS.md", "CLAUDE.md", "CONTEXT.md", "docs/**"],
+
   title: "Michael Wurster | Software Engineer",
   description: "Software Engineer with 10+ years at tech giants & startups, 20+ research papers. Skilled in Java, TypeScript, Python, and Kubernetes. Loves continuous delivery!",
 
