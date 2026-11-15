@@ -20,7 +20,7 @@ const PROFILE_PAGES = ["index.md", "resume.md"];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcExclude: ["AGENTS.md", "CLAUDE.md", "CONTEXT.md", "README.md", "docs/**"],
+  srcExclude: ["AGENTS.md", "CLAUDE.md", "GLOSSARY.md", "README.md", "docs/**"],
 
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
