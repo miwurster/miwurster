@@ -1,7 +1,16 @@
 ## Agent skills
 
-Issues are GitHub issues in `miwurster/miwurster`, via `gh`, triaged with the default labels.
-To file, read, claim, label or close one, follow `../home-hq/docs/agents/issue-tracker.md` and `../home-hq/docs/agents/triage-labels.md`.
+### Issue tracker
 
-Domain docs are single-context: `GLOSSARY.md` and `docs/adr/` at the repo root.
+GitHub issues in `miwurster/miwurster`, via `gh`.
+To file, read, claim, label or close an issue, follow `../home-hq/docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five default labels, each equal to its role name.
+To apply or read one, follow `../home-hq/docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `GLOSSARY.md` and `docs/adr/` at the repo root.
 Before naming a domain concept or changing what an ADR decides, follow `../home-hq/docs/agents/domain.md`.
