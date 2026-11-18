@@ -1,3 +1,11 @@
+## Verification checks
+
+Run these checks in order before you report a code change as done:
+
+1. `npm run docs:build`
+
+Set up once after cloning, and again whenever a lockfile changes, with `npm ci`.
+
 ## Agent skills
 
 ### Issue tracker
